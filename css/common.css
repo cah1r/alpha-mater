@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cairo", sans-serif;
+  color: #343a40;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6.4rem;
+  height: 12rem;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  text-underline-offset: 1rem;
+  text-decoration-color: #233c59;
+  color: #343a40;
+  font-size: 2.2rem;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #233c59;
+  text-decoration-color: #233c59;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+.logo-link:link,
+.logo-link:visited {
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logo-link:hover,
+.logo-link:active {
+  opacity: 0.6;
+}
+
+.main-nav-link.active {
+  color: #233c59;
+  text-decoration-color: #233c59;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+.logo {
+  height: 7.4rem;
+}
+
+footer {
+  font-size: 1.6rem;
+  height: 3.6rem;
+  background-color: #0a2647;
+  color: #b6bec8;
+  text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 999;
+  height: 12rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.2);
+}
+
+.anchor {
+  scroll-margin-top: 12rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+#back-to-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 3rem;
+  right: 3rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 1000;
+}
+
+.back-to-top-icn {
+  stroke-width: 1px;
+  height: 48px;
+  width: 48px;
+  color: #0a2647;
+}
