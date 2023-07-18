@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cairo", sans-serif;
+  color: #212529;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
 h3 {
   font-family: "Copperplate", sans-serif;
   font-size: 4.4rem;
@@ -16,8 +29,8 @@ p,
 a,
 li {
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 1.6;
+  font-size: 2.2rem;
+  line-height: 1.7;
 }
 
 main li {
@@ -29,7 +42,7 @@ a {
 }
 
 p {
-  color: #343a40;
+  color: #212529;
   margin-top: 3.2rem;
 }
 
@@ -81,13 +94,14 @@ p {
   background-image: url(../img/about-us/main_background.jpg);
   background-size: cover;
   background-position: right;
-  padding: 12.8rem 4.8rem;
+  margin-top: 3.6rem;
+  padding: 14.6rem 4.8rem;
 }
 
 .start-journey-content {
   display: block;
   color: #fff;
-  max-width: 86rem;
+  max-width: 78rem;
   padding: 4.8rem;
   background-color: rgba(10, 38, 71, 0.4);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
@@ -101,7 +115,7 @@ p {
 
 .eric-section {
   display: grid;
-  margin: 8.6rem auto;
+  margin: 16.4rem auto;
   gap: 8.6em;
   max-width: 130rem;
   grid-template-columns: 0.4fr 1.6fr;
@@ -134,17 +148,18 @@ footer {
 
 .consultants-section {
   display: grid;
-  margin: 4.8rem auto;
-  max-width: 130rem;
+  margin: 12.8rem auto 18.6rem auto;
+  max-width: 140rem;
   grid-template-columns: 1fr 1fr;
-  box-shadow: 0 0 50px rgba(44, 44, 44, 0.07);
-  /* align-content: center; */
+  box-shadow: 0 10px 7px rgba(44, 44, 44, 0.3);
+  padding: 6.4rem 0;
 }
 
 .consultants-img-box {
   background-image: url(../img/about-us/team.jpg);
   background-size: cover;
   background-position: center;
+  margin: 3.6rem;
 }
 
 .consultants-content {
@@ -157,13 +172,13 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.4rem;
-  margin: 12.8rem auto;
-  max-width: 130rem;
+  margin: 18.6rem auto 12.8rem auto;
+  max-width: 140rem;
 }
 
 .values-box {
   border: #aaa solid 2px;
-  padding: 6.4rem;
+  padding: 9.6rem 6.4rem;
   background: radial-gradient(circle, #fff 20%, #ddd);
   box-shadow: 0 7px 5px rgba(100, 100, 100, 0.4);
 }
@@ -185,5 +200,5 @@ footer {
   left: 0;
   bottom: -0.2rem;
   width: 100%;
-  border-bottom: 1px solid #b200004d;
+  border-bottom: 1px solid #21252942;
 }

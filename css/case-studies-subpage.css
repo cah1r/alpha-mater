@@ -1,11 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cairo", sans-serif;
+  color: #212529;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
 h3 {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   letter-spacing: 0;
   margin-top: 1.6rem;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   letter-spacing: 1.2px;
 }
 
@@ -15,7 +28,7 @@ p {
 
 li {
   margin-left: 2.4rem;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 .page-main-content {
@@ -35,29 +48,59 @@ li {
 }
 
 .strategy-color {
-  background: linear-gradient(#ced4da, #9da8b5);
+  background-color: #0b1725;
+}
+
+.strategy-color--2 {
+  background-color: #232e3b;
 }
 
 .predeal-color {
-  background: linear-gradient(rgb(194, 195, 197), rgb(133, 134, 136));
+  background-color: #858688;
+}
+
+.predeal-color--2 {
+  background-color: #aaaaac;
 }
 
 .postdeal-color {
-  background: linear-gradient(rgb(243, 239, 255), rgb(183, 199, 228));
+  background-color: #b7c7e4;
+}
+
+.postdeal-color--2 {
+  background-color: #d4ddef;
 }
 
 .transformation-color {
-  background: linear-gradient(rgb(12, 46, 69), rgb(3, 12, 17));
-  color: #f8f9fa;
+  background-color: #030c11;
+}
+
+.transformation-color--2 {
+  background-color: #1c2429;
 }
 
 .marketing-color {
-  background: linear-gradient(rgb(123, 123, 115), rgb(83, 83, 75));
-  color: #f8f9fa;
+  background-color: #53534b;
+}
+
+.marketing-color--2 {
+  background-color: #878781;
 }
 
 .sales-color {
-  background: linear-gradient(rgb(255, 133, 145), rgb(240, 113, 36));
+  background-color: #f07124;
+}
+
+.sales-color--2 {
+  background-color: #f59c66;
+}
+
+.light-font {
+  color: #f8f9fa;
+}
+
+.dark-font {
+  color: #212529;
 }
 
 .subsection-bar-content {
@@ -89,7 +132,7 @@ li {
 .subsection-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 6.4rem;
+  gap: 2.4rem;
 }
 
 .content-block {
@@ -116,9 +159,13 @@ li {
 }
 
 .title-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   height: 12rem;
-  background-color: #0a2647;
-  color: #f8f9fa;
+  /* background-color: #0a2647; */
+  /* color: #f8f9fa; */
+  z-index: 1000;
 }
 
 .bar-container {

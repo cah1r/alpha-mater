@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cairo", sans-serif;
+  color: #212529;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
 h4 {
   font-family: "Copperplate", sans-serif;
   font-size: 3.6rem;
@@ -6,14 +19,14 @@ h4 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .consulting-groups-section {
   display: grid;
-  grid-template-columns: repeat(3, 36rem);
+  grid-template-columns: repeat(3, 38rem);
   gap: 4.8rem;
-  padding: 6.4rem 0;
+  padding: 6.4rem 2.4rem;
   justify-content: center;
   background-image: url(../img/capabilities/main_background.png);
   background-size: cover;
@@ -24,23 +37,22 @@ p {
 .consulting-group-box:visited {
   text-decoration: none;
   text-align: center;
-  padding-top: 3.6rem;
-  padding-bottom: 6.4rem;
+  padding: 3.6rem 2.4rem;
   background-color: #0a2647;
   color: #ddd;
   cursor: pointer;
-  box-shadow: 0 0.5rem 1rem #00000090;
+  box-shadow: 0 0.5rem 1rem #000000;
   transition: all 0.2s ease-in-out;
 }
 
 .consulting-group-box:hover,
 .consulting-group-box:active {
-  box-shadow: 0 0.5rem 4rem #00000090;
+  box-shadow: 0 0.5rem 5rem #000000;
 }
 
 .consulting-group-box ul {
   list-style: none;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 300;
 }
 
@@ -67,14 +79,14 @@ p {
 
 .content-main-list {
   list-style: none;
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 500;
   margin-top: 2.6rem;
   margin-bottom: 1rem;
 }
 
 .content-list {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-top: 1rem;
   margin-left: 3.6rem;
 }
@@ -126,7 +138,7 @@ footer {
 .go-to-case-link:visited {
   display: flex;
   align-items: center;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   width: fit-content;
@@ -145,7 +157,7 @@ footer {
 }
 
 .dark-font {
-  color: #343a40;
+  color: #212529;
 }
 
 .light-font {

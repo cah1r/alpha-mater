@@ -11,7 +11,7 @@ main color: #0A2647
 light color: #54677e
 
 light gray: #f8f9fa
-dark gray: #343a40 
+dark gray: #212529
 */
 
 * {
@@ -22,14 +22,14 @@ dark gray: #343a40
 
 html {
   font-family: "Cairo", sans-serif;
-  color: #343a40;
+  color: #212529;
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
 p,
 a {
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 1.6;
 }
 
@@ -39,7 +39,7 @@ a {
 
 p {
   font-weight: 400;
-  color: #343a40;
+  color: #212529;
 }
 
 .hero {
@@ -88,7 +88,7 @@ h4 {
 
 .quotes {
   justify-self: end;
-  margin-right: 7%;
+  margin-right: 11%;
 }
 
 .see-more-component {
@@ -143,17 +143,11 @@ h4 {
 .main-bar-title {
   width: 70%;
   text-align: center;
-  opacity: 0;
-  transform: translateY(100%);
-  transition: opacity 1.1s ease-in-out, transform 1.1s ease-in-out;
 }
 
 .main-bar-content {
   padding-left: 3.6rem;
   border-left: #f8f9fa solid 1px;
-  opacity: 0;
-  transform: translateY(100%);
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
 .ste-content h3,
@@ -209,7 +203,7 @@ h4 {
 
 .btn-arrd:link,
 .btn-arrd:visited {
-  color: #343a40;
+  color: #212529;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -239,13 +233,12 @@ h4 {
 
 .specialise-container {
   display: grid;
-  min-height: 70rem;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
 .expertise-container {
-  margin: 6.4rem 3.6rem;
+  margin: 1.8rem 3.6rem;
 }
 
 .expertise-container-title {
@@ -255,14 +248,16 @@ h4 {
 .func-exp-img {
   background-image: url(../img/index/func-exp.jpg);
   background-size: cover;
-  height: 100%;
+  height: calc(50vh - 6rem);
+  min-height: 40rem;
 }
 
 .sector-exp-img {
   background-image: url(../img/index/sector-exp.jpg);
   background-size: cover;
   background-position: bottom;
-  height: 100%;
+  height: calc(50vh - 6rem);
+  min-height: 40rem;
 }
 
 .expertise-content {
@@ -277,6 +272,7 @@ h4 {
   text-align: right;
   position: relative;
   padding-right: 2.4rem;
+  font-weight: 600;
 }
 
 .expertise-content h4::after {
@@ -297,17 +293,13 @@ h4 {
 }
 
 .divider {
-  border-top: #343a40 solid 1px;
+  border-top: #212529 solid 1px;
   width: 55%;
   margin-top: 0.8rem;
   margin-bottom: 2.4rem;
 }
 
-.slide-from-bottom {
-  opacity: 1;
-  transform: translateY(0%);
-}
-
 footer {
   grid-column: span 2;
+  align-self: flex-end;
 }

@@ -1,12 +1,12 @@
-var slideFromBottomComponents =
-  ".section-bar-title, .main-bar-content, .main-bar-title, .section-bar-subtitle, .projects-title";
+// var slideFromBottomComponents =
+//   ".section-bar-title, .main-bar-content, .main-bar-title, .section-bar-subtitle, .projects-title";
 
-window.onload = function () {
-  var elements = document.querySelectorAll(slideFromBottomComponents);
-  elements.forEach(function (element) {
-    element.classList.add("slide-from-bottom");
-  });
-};
+// window.onload = function () {
+//   var elements = document.querySelectorAll(slideFromBottomComponents);
+//   elements.forEach(function (element) {
+//     element.classList.add("slide-from-bottom");
+//   });
+// };
 
 // Back to top script
 window.onscroll = function () {
