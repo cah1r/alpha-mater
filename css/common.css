@@ -86,3 +86,22 @@ footer {
   width: 48px;
   color: #0a2647;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.bullet-list li {
+  position: relative;
+  padding-left: 1em;
+}
+
+.bullet-list li::before {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  content: "\2022";
+  font-size: 1em;
+  left: 0;
+  top: 0;
+  line-height: 1.8;
+}

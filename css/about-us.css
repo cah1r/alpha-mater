@@ -187,11 +187,16 @@ footer {
   display: inline-block;
   position: relative;
   color: #b20000;
+  margin-left: 3rem;
 }
 
 .values-box li {
   line-height: 4.8rem;
   margin-left: 4.8rem;
+}
+
+.values-box li::before {
+  line-height: 4.8rem;
 }
 
 .values-box h3::after {
