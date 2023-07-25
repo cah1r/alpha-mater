@@ -105,3 +105,86 @@ ul {
   top: 0;
   line-height: 1.8;
 }
+
+/* MOBILE navigation menu */
+.mobile-menu {
+  display: none;
+}
+
+.menu-icon span {
+  height: 0.2rem;
+  background-color: #233c59;
+}
+
+.mobile-nav {
+  list-style: none;
+  color: #f8f9fa;
+  background-color: #0a2647;
+  position: fixed;
+  height: calc(100vh - 180px);
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+  white-space: nowrap;
+  padding: 3.6rem 8.6rem;
+  text-align: center;
+}
+
+.mobile-nav .main-nav-link {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 8rem;
+  color: #f8f9fa;
+}
+
+.mobile-nav.open {
+  transform: translateX(0);
+}
+
+.menu-icon {
+  cursor: pointer;
+  width: 4rem;
+  height: 3rem;
+  position: relative;
+}
+
+.line {
+  width: 100%;
+  height: 0.4rem;
+  background: #0a2647;
+  position: absolute;
+  left: 0;
+  transition: all 0.5s ease;
+}
+
+.line1 {
+  top: 0;
+}
+
+.line2 {
+  top: 1.2rem;
+}
+
+.line3 {
+  top: 2.4rem;
+}
+
+.menu-icon.close .line1 {
+  transform: rotate(-45deg) translateY(1.6rem);
+}
+
+.menu-icon.close .line2 {
+  opacity: 0;
+}
+
+.menu-icon.close .line3 {
+  transform: rotate(45deg) translateY(-1.6rem);
+}
+
+/* Hiding mobile menu icon for no-phone devices */
+@media (min-width: 47em) {
+  .menu-icon {
+    display: none;
+  }
+}

@@ -1,0 +1,115 @@
+/* 1400px */
+@media (max-width: 87.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .quotes {
+    margin-right: 4%;
+  }
+
+  .see-more:link,
+  .see-more:visited {
+    font-size: 2.8rem;
+  }
+}
+
+/* 1150px */
+@media (max-width: 71em) {
+  .quotes {
+    display: flex;
+    justify-content: space-between;
+    justify-self: start;
+    align-self: self-end;
+    width: 100%;
+    padding: 0 5% 5% 5%;
+  }
+
+  .see-more-component {
+    align-self: self-end;
+    margin-bottom: 1.2rem;
+  }
+
+  .main-bar-title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 47em) {
+  .ste-img-box {
+    display: none;
+  }
+
+  .support-to-executives {
+    flex-flow: column;
+    margin-top: 6.4rem;
+    height: auto;
+  }
+
+  .ste-content-element {
+    margin-bottom: 2.4rem;
+  }
+
+  .ste-content {
+    max-width: 80%;
+  }
+
+  .specialise-bar {
+    text-align: left;
+    padding: 0 2.4rem;
+  }
+
+  .specialise-title {
+    width: 100%;
+  }
+
+  .specialise-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .func-exp-img {
+    height: auto;
+  }
+
+  .sector-exp-img {
+    height: auto;
+    grid-row: 3;
+  }
+
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 40%;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .quotes {
+    flex-flow: column;
+    width: 100%;
+  }
+
+  .quotes h1 {
+    text-align: right;
+  }
+
+  .see-more-component {
+    display: none;
+  }
+
+  .main-bar-content {
+    display: none;
+  }
+
+  .main-bar-title {
+    padding: 0 2rem;
+    line-height: 6rem;
+  }
+}
