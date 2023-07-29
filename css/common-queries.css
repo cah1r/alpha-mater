@@ -1,33 +1,47 @@
 /* 1400px */
 @media (max-width: 87.5em) {
-  html {
-    font-size: 50%;
-  }
+    .header {
+        padding: 3.2rem;
+        height: 16rem;
+    }
 }
 
-/* 1150px */
+/* 1136px */
 @media (max-width: 71em) {
-  html {
-    font-size: 40%;
-  }
+    html {
+        font-size: 50%;
+    }
 
-  .logo {
-    height: 9.6rem;
-    margin-top: 3.6rem;
-  }
+    .logo {
+        height: 9.6rem;
+    }
 
-  .header {
-    padding: 0 3.2rem;
-  }
+    .main-nav {
+        gap: 2.4rem;
+    }
 
-  .main-nav {
-    gap: 2.4rem;
-  }
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 2.6rem;
+    }
+}
+
+/* 848px */
+@media (max-width: 53em) {
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 2.2rem;
+    }
 }
 
 /* 760px */
 @media (max-width: 47em) {
-  .main-nav {
-    display: none;
-  }
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav .main-nav-link {
+        font-size: 2.8rem;
+        font-weight: 400;
+    }
 }
