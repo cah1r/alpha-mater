@@ -64,6 +64,7 @@ html {
 .equity-img-box {
   background-image: url(../img/industries/private-equity.jpg);
   background-position: left;
+  transform: scale(0.8);
 }
 
 .industry-content {
