@@ -1,12 +1,14 @@
 h2,
 h3 {
-  font-family: "Copperplate", sans-serif;
-  letter-spacing: -0.25rem;
+  font-family: "EB Garamond", serif;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.6rem;
 }
 
 h2 {
   font-size: 4.4rem;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 h3 {

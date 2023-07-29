@@ -5,21 +5,24 @@
 }
 
 html {
-  font-family: "Cairo", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #212529;
   scroll-behavior: smooth;
   font-size: 62.5%;
+  line-height: 1.8;
 }
 
 h4 {
-  font-family: "Copperplate", sans-serif;
-  font-size: 3.6rem;
+  font-family: "EB Garamond", serif;
+  font-size: 3.2rem;
   font-weight: 500;
-  letter-spacing: -0.25rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.4rem;
 }
 
 p {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
+  line-height: 1.6;
 }
 
 .consulting-groups-section {
@@ -28,11 +31,26 @@ p {
   gap: 4.8rem;
   padding: 6.4rem 2.4rem;
   justify-content: center;
-  background-image: url(../img/capabilities/main_background.png);
+  background-image: url(../img/capabilities/main_background.jpg);
   background-size: cover;
   background-position: center;
   box-shadow: 0 3rem 5rem #444444b3;
 }
+/*
+.consulting-groups-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/capabilities/main_background.jpg) no-repeat center center;
+  background-size: cover;
+  filter: blur(.2rem);
+  z-index: -1;
+} 
+*/
+
 .consulting-group-box:link,
 .consulting-group-box:visited {
   text-decoration: none;
@@ -69,8 +87,8 @@ p {
 }
 
 .consulting-group-member-content {
-  margin: 6.4rem 0 6.4rem 9.6rem;
-  max-width: 64rem;
+  padding: 6.4rem 32rem 6.4rem 9.6rem;
+  max-width: 106rem;
 }
 
 .consulting-group-member-content p {
@@ -93,31 +111,56 @@ p {
 
 .strategy-img-box {
   background-image: url(../img/capabilities/strategy.jpg);
-  background-position: right bottom;
+  background-position: center;
+}
+
+.strategy-content {
+  background: linear-gradient(to right, #071726 77%, #07172600);
 }
 
 .predeal-img-box {
   background-image: url(../img/capabilities/predeal.jpg);
-  background-position: center;
+  background-position: 80%;
+}
+
+.predeal-content {
+  background: linear-gradient(to right, #858688 70%, #85868800);
 }
 
 .postdeal-img-box {
   background-image: url(../img/capabilities/postdeal.jpg);
-  background-position: bottom;
+  background-position: 20%;
+}
+
+.postdeal-content {
+  background: linear-gradient(to right, #bac6e1 70%, #bac6e100);
 }
 
 .transformation-img-box {
   background-image: url(../img/capabilities/transformation.jpg);
+  background-position: 50%;
+}
+
+.transformation-content {
+  background: linear-gradient(to right, #000 70%, #00000000);
 }
 
 .sales-img-box {
   background-image: url(../img/capabilities/sales.jpg);
-  background-size: cover;
-  background-position: bottom;
+  background-position: top;
+}
+
+.sales-content {
+  background: linear-gradient(to right, #ff7c06 70%, #ff7c0600);
 }
 
 .marketing-img-box {
   background-image: url(../img/capabilities/marketing.jpg);
+  background-position: 35%;
+}
+
+.marketing-content {
+  background: linear-gradient(to right, #53534b 70%, #53534b00);
 }
 
 footer {

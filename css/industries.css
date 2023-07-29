@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: "Cairo", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #212529;
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -62,7 +62,7 @@ html {
 }
 
 .equity-img-box {
-  background-image: url(../img/industries/private-equity.png);
+  background-image: url(../img/industries/private-equity.jpg);
   background-position: left;
 }
 

@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: "Cairo", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #212529;
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -13,12 +13,12 @@ html {
 
 h2,
 h3 {
-  font-family: "Copperplate", sans-serif;
-  letter-spacing: -0.25rem;
+  font-family: "EB Garamond", serif;
+  /* letter-spacing: -0.25rem; */
 }
 
 h3 {
-  font-size: 4.8rem;
+  font-size: 5.6rem;
   font-weight: 500;
 }
 

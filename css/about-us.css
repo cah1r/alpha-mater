@@ -5,14 +5,14 @@
 }
 
 html {
-  font-family: "Cairo", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #212529;
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
 h3 {
-  font-family: "Copperplate", sans-serif;
+  font-family: "EB Garamond", serif;
   font-size: 4.4rem;
   font-weight: 400;
   line-height: 1;
@@ -98,6 +98,12 @@ p {
   padding: 14.6rem 4.8rem;
 }
 
+.start-journey-section h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem;
+}
+
 .start-journey-content {
   display: block;
   color: #fff;
@@ -107,8 +113,10 @@ p {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 
-.start-journey-content p {
+.start-journey-content p,
+.start-journey-content li {
   color: #fff;
+  font-weight: 300;
 }
 
 /* ******************************************* */
@@ -133,15 +141,7 @@ p {
 .eric-section h3,
 .consultants-section p:last-child,
 .eric-section p:last-child {
-  margin-bottom: 0;
-}
-
-footer {
-  font-size: 1.6rem;
-  height: 3.6rem;
-  background-color: #0a2647;
-  color: #b6bec8;
-  text-align: center;
+  margin-bottom: 1.6rem;
 }
 
 /* ******************************************* */
@@ -181,6 +181,10 @@ footer {
   padding: 9.6rem 6.4rem;
   background: radial-gradient(circle, #fff 20%, #ddd);
   box-shadow: 0 7px 5px rgba(100, 100, 100, 0.4);
+}
+
+.values-box--test {
+  background: #eee;
 }
 
 .values-box h3 {
