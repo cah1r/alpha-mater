@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/about-us.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/common-queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -27,18 +32,39 @@
         <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
       </a>
       <ul class="main-nav">
-        <li>
-          <a class="main-nav-link active" href="about-us.html">About us</a>
-        </li>
+        <li><a class="main-nav-link" href="about-us.html">About us</a></li>
         <li>
           <a class="main-nav-link" href="capabilities.html">Capabilities</a>
         </li>
-        <li><a class="main-nav-link" href="industries.html">Industries</a></li>
+        <li>
+          <a class="main-nav-link" href="industries.html">Industries</a>
+        </li>
         <li>
           <a class="main-nav-link" href="case-studies.html">Case studies</a>
         </li>
         <li><a class="main-nav-link" href="contact.html">Contact</a></li>
       </ul>
+
+      <nav id="mobile-nav" class="mobile-nav">
+        <ul>
+          <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+          <li>
+            <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="industries.html">Industries</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="case-studies.html">Case studies</a>
+          </li>
+          <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-menu" class="menu-icon">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
     </header>
 
     <main>
@@ -128,7 +154,7 @@
       <section class="consultants-section">
         <div class="consultants-img-box"></div>
         <div class="consultants-content">
-          <h3>CONSULTANTS</h3>
+          <h3>Consultants</h3>
           <p class="divider"></p>
           <p>
             We work with exceptional professionals ranging from Analysts to Project Leaders, who
@@ -148,7 +174,7 @@
       </section>
 
       <section class="values">
-        <div class="values-box">
+        <div class="values-box values-box--test">
           <h3>Our Commitment</h3>
           <ul class="bullet-list">
             <li>To deliver high standard services</li>
