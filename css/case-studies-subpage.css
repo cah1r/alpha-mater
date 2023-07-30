@@ -27,7 +27,7 @@ p {
     font-size: 2rem;
 }
 
-li {
+.subsection-content li {
     margin-left: 2.4rem;
     font-size: 2.1rem;
     line-height: 1.6;

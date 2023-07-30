@@ -1,5 +1,10 @@
 /* 1500px */
 @media (max-width: 93em) {
+    .start-journey-content {
+        max-width: 86rem;
+        background-color: #0a2847d9;
+    }
+
     .consultants-section {
         margin: 0 6.4rem;
     }
@@ -30,11 +35,6 @@
     .start-journey-section {
         padding: 6.4rem 4.8rem;
     }
-
-    .start-journey-content {
-        max-width: 86rem;
-        background-color: #0a2847d9;
-    }
 }
 
 /* 950px */
@@ -48,7 +48,8 @@
     }
 
     .consultants-img-box {
-        height: 40rem;
+        height: 30rem;
+        margin: 3.6rem 2.4rem;
     }
 
     .values {

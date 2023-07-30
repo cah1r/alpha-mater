@@ -9,7 +9,6 @@ html {
     color: #212529;
     scroll-behavior: smooth;
     font-size: 62.5%;
-    line-height: 1.8;
 }
 
 h4 {
@@ -35,6 +34,7 @@ p {
     background-size: cover;
     background-position: center;
     box-shadow: 0 3rem 5rem #444444b3;
+    line-height: 1.8;
 }
 /*
 .consulting-groups-section::before {
@@ -71,7 +71,7 @@ p {
 .consulting-group-box ul {
     list-style: none;
     font-size: 2.2rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .consulting-group-list {

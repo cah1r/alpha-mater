@@ -18,22 +18,31 @@ dark gray: #212529
 /* mobile menu */
 
 .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     list-style: none;
     color: #f8f9fa;
     background-color: #0a2647;
     position: absolute;
-    height: calc(100vh - 180px);
     top: 0;
     left: 0;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-out;
+    height: calc(100vh - 180px);
+    width: 0;
+    transition: all 0.3s ease-out;
     white-space: nowrap;
-    padding: 8.6rem 8.6rem;
     text-align: center;
+    overflow: hidden;
 }
 
 .mobile-nav .main-nav-link {
     color: #f8f9fa;
+}
+
+.mobile-nav.open {
+    height: calc(100vh - 180px);
+    box-shadow: none;
+    width: 30rem;
 }
 
 /* ========================================== */

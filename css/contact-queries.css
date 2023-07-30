@@ -1,9 +1,18 @@
-@media (max-width: 37.5em) {
-  .contact-component {
-    background-color: ;
-  }
+/* 670px */
+@media (max-width: 41.8em) {
+    h3 {
+        font-size: 3.8rem;
+    }
 
-  .contact-box {
-    padding: 19% 15%;
-  }
+    .contact-component {
+        background-position: left;
+    }
+
+    .contact-box {
+        padding: 19% 5% 19% 10%;
+    }
+
+    .address-box::before {
+        left: -3rem;
+    }
 }
