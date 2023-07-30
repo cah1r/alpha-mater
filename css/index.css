@@ -46,7 +46,7 @@ dark gray: #212529
 }
 
 html {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cairo", sans-serif;
     color: #212529;
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -85,8 +85,9 @@ h1 {
 
 h2 {
     font-family: "Copperplate Gothic Light", sans-serif;
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     letter-spacing: 0.3rem;
+    font-weight: 300;
 }
 
 h3 {

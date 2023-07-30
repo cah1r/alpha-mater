@@ -5,14 +5,14 @@
 }
 
 html {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cairo", sans-serif;
     color: #212529;
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
 h3 {
-    font-family: "Copperplate Gothic Light", sans-serif;
+    font-family: "Copperplate Gothic Light", serif;
     font-size: 3.6rem;
     font-weight: 400;
     line-height: 1;
@@ -150,6 +150,7 @@ p {
     position: relative;
     color: #b20000;
     margin-left: 3rem;
+    margin-bottom: 2rem;
 }
 
 .values-box li {

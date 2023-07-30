@@ -1,160 +1,160 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-family: "Open Sans", sans-serif;
-  color: #212529;
-  scroll-behavior: smooth;
-  font-size: 62.5%;
+    font-family: "Cairo", sans-serif;
+    color: #212529;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 h4 {
-  font-family: "Copperplate", sans-serif;
-  font-size: 3.6rem;
-  font-weight: 500;
-  letter-spacing: -0.25rem;
+    font-family: "Copperplate", sans-serif;
+    font-size: 3.6rem;
+    font-weight: 500;
+    letter-spacing: -0.25rem;
 }
 
 p,
 a {
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 
 .groups-section {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(6, 22rem);
-  grid-template-rows: repeat(4, auto);
-  gap: 0.1rem;
-  padding: 2.4rem 0 6.4rem 0;
-  justify-content: center;
-  background: linear-gradient(#fff, 80%, #858688);
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 22rem);
+    grid-template-rows: repeat(4, auto);
+    gap: 0.1rem;
+    padding: 2.4rem 0 6.4rem 0;
+    justify-content: center;
+    background: linear-gradient(#fff, 80%, #858688);
 }
 
 .group-title:link,
 .group-title:visited {
-  background-color: #081e39;
-  text-decoration: none;
-  width: 21rem;
-  color: #eee;
-  font-weight: 500;
-  text-align: center;
-  box-shadow: 0.2rem 0.2rem 0.8rem #5a5a5aeb;
-  justify-self: center;
-  margin-bottom: 1rem;
-  transition: all 0.2s ease-in-out;
+    background-color: #081e39;
+    text-decoration: none;
+    width: 21rem;
+    color: #eee;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0.2rem 0.2rem 0.8rem #5a5a5aeb;
+    justify-self: center;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
 }
 
 .group-title:hover,
 .group-title:active {
-  background-color: #233c59;
+    background-color: #233c59;
 }
 
 .group-box {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .group-box:link,
 .group-box:visited {
-  display: grid;
-  height: 20rem;
-  text-decoration: none;
-  text-align: center;
-  align-content: center;
-  background: linear-gradient(135deg, #233c59, #0a2647);
-  box-shadow: 0 0 5rem rgba(33, 33, 33, 0.05);
-  color: #eee;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+    display: grid;
+    height: 20rem;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(135deg, #233c59, #0a2647);
+    box-shadow: 0 0 5rem rgba(33, 33, 33, 0.05);
+    color: #eee;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .group-box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #54677e, #233c59);
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #54677e, #233c59);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    z-index: -1;
 }
 
 .group-box:hover::before,
 .group-box:active::before {
-  opacity: 1;
+    opacity: 1;
 }
 
 .case-study-bar {
-  color: #eee;
-  padding: 2.4rem;
+    color: #eee;
+    padding: 2.4rem;
 }
 
 .case-study-bar-box,
 .case-study-title-bar,
 .case-study-content {
-  max-width: 120rem;
-  margin: 0 auto;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .case-study-title-bar {
-  display: flex;
-  position: relative;
-  align-items: center;
-  gap: 3.6rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 3.6rem;
 }
 
 .case-study-title h4 {
-  letter-spacing: 0.3px;
-  margin-bottom: 1.6rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.6rem;
 }
 
 .case-study-title p:last-child {
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 
 .case-study-content ul {
-  font-size: 2rem;
-  margin-bottom: 3.6rem;
-  margin-left: 2.2rem;
+    font-size: 2rem;
+    margin-bottom: 3.6rem;
+    margin-left: 2.2rem;
 }
 
 .case-study-content p {
-  margin-top: 1.6rem;
-  margin-bottom: 2.4rem;
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
 }
 
 .challenge-box {
-  border-bottom: 1px solid #343a40;
-  border-top: 1px solid #343a40;
-  margin: 2.4rem 0;
+    border-bottom: 1px solid #343a40;
+    border-top: 1px solid #343a40;
+    margin: 2.4rem 0;
 }
 
 .gradient-container {
-  background: linear-gradient(#fff 40%, #343a4070);
+    background: linear-gradient(#fff 40%, #343a4070);
 }
 
 .case-study-section img {
-  max-height: 20rem;
+    max-height: 20rem;
 }
 
 .pre-deal-bar {
-  background-color: #858688;
+    background-color: #858688;
 }
 
 .strategy-bar {
-  background-color: #0c1623;
+    background-color: #0c1623;
 }
 
 .post-deal-bar {
-  background-color: #bbc6e0;
-  color: #343a40;
+    background-color: #bbc6e0;
+    color: #343a40;
 }
