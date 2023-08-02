@@ -1,3 +1,23 @@
+/* 1540px */
+@media (max-width: 96.2em) {
+    h3 {
+        font-size: 3.8rem;
+    }
+
+    h4 {
+        font-size: 2.2rem;
+    }
+
+    p,
+    a {
+        font-size: 2rem;
+    }
+
+    .specialise-img-config {
+        height: 50vh;
+    }
+}
+
 /* 1400px */
 @media (max-width: 87.5em) {
     .quotes {
@@ -10,8 +30,12 @@
     }
 }
 
-/* 1150px */
+/* 1135px */
 @media (max-width: 71em) {
+    html {
+        font-size: 55%;
+    }
+
     .main-nav-link:link,
     .main-nav-link:visited {
         font-size: 2.6rem;
@@ -20,15 +44,6 @@
     .nav h2 {
         font-size: 4rem;
         line-height: 1.5;
-    }
-
-    .quotes {
-        display: flex;
-        justify-content: space-between;
-        justify-self: start;
-        align-self: self-end;
-        width: 100%;
-        padding: 0 4.8rem 0.6rem 4.8rem;
     }
 
     .see-more-component {
@@ -43,6 +58,7 @@
     .support-to-executives {
         flex-direction: column;
         justify-content: center;
+        margin: 3.2rem 0;
     }
 
     .support-to-executives h3 {
@@ -120,7 +136,23 @@
     }
 }
 
-/* 760px */
+/* 880px */
+@media (max-width: 55em) {
+    .quotes {
+        display: flex;
+        justify-content: space-between;
+        justify-self: start;
+        align-self: self-end;
+        width: 100%;
+        padding: 0 4.8rem 0.6rem 4.8rem;
+    }
+
+    .btn-arrd {
+        display: none;
+    }
+}
+
+/* 752px */
 @media (max-width: 47em) {
     h2 {
         font-size: 3.6rem;
@@ -176,8 +208,11 @@
     .sector-exp-img {
         height: 40rem;
     }
+}
 
-    .btn-arrd {
+/* 630px */
+@media (max-width: 39.4em) {
+    .see-more-component {
         display: none;
     }
 }
@@ -195,10 +230,6 @@
     .quotes h1 {
         text-align: right;
         font-size: 4.2rem;
-    }
-
-    .see-more-component {
-        display: none;
     }
 
     .main-bar-content {
