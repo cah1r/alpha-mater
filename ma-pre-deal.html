@@ -1,314 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/section-bar.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/case-studies-subpage.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
-    <link href="https://fonts.cdnfonts.com/css/copperplate-gothic-light" rel="stylesheet" />
-    <script src="js/scripts.js"></script>
-    <title>M&A Pre-deal | Alpha Mater</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/section-bar.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/case-studies-subpage.css" />
+        <link rel="stylesheet" href="css/common-queries.css" />
+        <link rel="stylesheet" href="css/section-bar-queries.css" />
+        <link rel="stylesheet" href="css/case-studies-subpage-queries.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
+        <link href="https://fonts.cdnfonts.com/css/copperplate-gothic-light" rel="stylesheet" />
+        <script defer src="js/scripts.js"></script>
+        <title>M&A Pre-deal | Alpha Mater</title>
+    </head>
 
-  <body>
-    <header class="header">
-      <a class="logo-link" href="index.html">
-        <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
-      </a>
-      <ul class="main-nav">
-        <li><a class="main-nav-link" href="about-us.html">About us</a></li>
-        <li>
-          <a class="main-nav-link" href="capabilities.html">Capabilities</a>
-        </li>
-        <li><a class="main-nav-link" href="industries.html">Industries</a></li>
-        <li>
-          <a class="main-nav-link" href="case-studies.html">Case studies</a>
-        </li>
-        <li><a class="main-nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </header>
+    <body>
+        <header class="header">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
+            </a>
+            <ul class="main-nav">
+                <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                <li>
+                    <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="industries.html">Industries</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                </li>
+                <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+            </ul>
 
-    <!-- Back to top icon -->
-    <a href="#" id="back-to-top">
-      <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icn" viewBox="0 0 512 512">
-        <rect width="100%" height="100%" fill="transparent" />
-        <path
-          d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                    <li>
+                        <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="industries.html">Industries</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                    </li>
+                    <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu" class="menu-icon">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </header>
+
+        <!-- Back to top icon -->
+        <a href="#" id="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icn" viewBox="0 0 512 512">
+                <rect width="100%" height="100%" fill="transparent" />
+                <path
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
           192-192z"
-          fill="none"
-          stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-width="24"
-        />
-        <path
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="24"
-          d="M176 249.38L256 170l80 79.38M256 181.03V342"
-        />
-      </svg>
-    </a>
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-miterlimit="10"
+                    stroke-width="24"
+                />
+                <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                    d="M176 249.38L256 170l80 79.38M256 181.03V342"
+                />
+            </svg>
+        </a>
 
-    <main>
-      <div class="title-bar predeal-color">
-        <div class="bar-container">
-          <h2 class="section-bar-title">M&A Pre-deal Projects</h2>
-        </div>
-      </div>
-
-      <section class="page-main-content">
-        <section>
-          <div class="subsection-bar predeal-color--2">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Acquisition target identification</h3>
-                <p><i>Specialised consulting firm - UK / Switzerland</i></p>
-              </div>
-              <img src="/img/case-studies/predeal1.jpg" class="img-fx" alt="" />
-            </div>
-          </div>
-
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A specialised pharma business consulting firm was looking to expand their
-                    activities in the UK to be closer to some global pharmaceutical companies’
-                    Headquarters
-                  </li>
-                  <li>
-                    Our client asked us to map the competition and identify what companies they
-                    should approach
-                  </li>
-                </ul>
-              </div>
-
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>3 potential targets were identified and valued</li>
-                  <li>
-                    Our clients assessed that the acquisition process would be too time consuming
-                    and decided to opt for a “greenfield” approach and hired a Managing Director to
-                    build the UK office from the ground up
-                  </li>
-                </ul>
-              </div>
+        <main>
+            <div class="title-bar predeal-color">
+                <div class="bar-container">
+                    <h2 class="section-bar-title">Pre-deal Projects</h2>
+                </div>
             </div>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>Identification of the target selection criteria</li>
-                  <li>Competitive landscape</li>
-                  <li>
-                    Identification, description, and assessment of all potential targets in the UK
-                  </li>
-                  <li>Selection workshop</li>
-                  <li>High level valuation of the 3 targets selected</li>
-                  <li>Development of a pitch document to approach the 3 selected targets</li>
-                </ul>
-              </div>
-            </div>
+            <section class="page-main-content">
+                <section>
+                    <div class="subsection-bar predeal-color--2">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Acquisition target identification</h3>
+                                <p><i>Specialised consulting firm - UK / Switzerland</i></p>
+                            </div>
+                            <img src="/img/case-studies/predeal1.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“Thank you for supporting us throughout this process. Your assistance has helped
-                  us understand the market. It has also made it evident that acquiring and
-                  integrating a new company would be a too big undertaking, considering our current
-                  bandwidth”</i
-                >
-              </p>
-              <p class="feedback-author">CEO – Business Consulting company</p>
-            </div>
-          </div>
-        </section>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A specialised pharma business consulting firm was looking to
+                                        expand their activities in the UK to be closer to some
+                                        global pharmaceutical companies’ Headquarters
+                                    </li>
+                                    <li>
+                                        Our client asked us to map the competition and identify what
+                                        companies they should approach
+                                    </li>
+                                </ul>
+                            </div>
 
-        <section id="acquisition" class="anchor">
-          <div class="subsection-bar predeal-color--2">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Acquisition Due Diligence</h3>
-                <p>
-                  <i>Private Equity Fund – Virtual real estate agency – France</i>
-                </p>
-              </div>
-              <img src="/img/case-studies/predeal2.jpg" class="img-fx" alt="" />
-            </div>
-          </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>3 potential targets were identified and valued</li>
+                                    <li>
+                                        Our clients assessed that the acquisition process would be
+                                        too time consuming and decided to opt for a “greenfield”
+                                        approach and hired a Managing Director to build the UK
+                                        office from the ground up
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A private equity fund asked us to review the value of a potential acquisition:
-                    an ecommerce company in the real estate sector
-                  </li>
-                  <li>
-                    The company had multiple activities with complex underlying market drivers
-                  </li>
-                </ul>
-              </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>Identification of the target selection criteria</li>
+                                    <li>Competitive landscape</li>
+                                    <li>
+                                        Identification, description, and assessment of all potential
+                                        targets in the UK
+                                    </li>
+                                    <li>Selection workshop</li>
+                                    <li>High level valuation of the 3 targets selected</li>
+                                    <li>
+                                        Development of a pitch document to approach the 3 selected
+                                        targets
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>The company was bought by our client</li>
-                  <li>
-                    1 year later we were asked to further help reviewing the company’s strategic
-                    plan
-                  </li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“Thank you for supporting us throughout this process. Your
+                                    assistance has helped us understand the market. It has also made
+                                    it evident that acquiring and integrating a new company would be
+                                    a too big undertaking, considering our current bandwidth”</i
+                                >
+                            </p>
+                            <p class="feedback-author">CEO – Business Consulting company</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>Analysis of the segmented demand, underlying drivers and forecast</li>
-                  <li>
-                    Blueprint of the competitive landscape, identification of business models and
-                    assessment of their business efficiency, identification of direct competitors
-                  </li>
-                  <li>
-                    Assessment of the strengths and weaknesses of the company against identified Key
-                    Success Factors vs. direct competitors
-                  </li>
-                  <li>Identification of the growth acceleration levers and required investments</li>
-                  <li>
-                    Realistic 3-year EBITDA for valuation and the level of risks / uncertainties
-                  </li>
-                  <li>
-                    Presentation of the investment opportunity to help our client to syndicate the
-                    required financing for acquisition
-                  </li>
-                </ul>
-              </div>
-            </div>
+                <section id="acquisition" class="anchor">
+                    <div class="subsection-bar predeal-color--2">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Acquisition Due Diligence</h3>
+                                <p>
+                                    <i>Private Equity Fund – Virtual real estate agency – France</i>
+                                </p>
+                            </div>
+                            <img src="/img/case-studies/predeal2.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“Thank you for helping us to build our conviction during the due diligence
-                  process with robust backed up top line forecasts and valuations”</i
-                >
-              </p>
-              <p class="feedback-author">Investment Director - Global Private Equity fund</p>
-            </div>
-          </div>
-        </section>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A private equity fund asked us to review the value of a
+                                        potential acquisition: an ecommerce company in the real
+                                        estate sector
+                                    </li>
+                                    <li>
+                                        The company had multiple activities with complex underlying
+                                        market drivers
+                                    </li>
+                                </ul>
+                            </div>
 
-        <section id="vendor" class="anchor">
-          <div class="subsection-bar predeal-color--2">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Vendor due diligence</h3>
-                <p>
-                  <i
-                    >Investment bank – Automotive / trucks spart parts and repair network – France &
-                    UK</i
-                  >
-                </p>
-              </div>
-              <img src="img/case-studies/predeal3.jpg" class="img-fx" alt="" />
-            </div>
-          </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>The company was bought by our client</li>
+                                    <li>
+                                        1 year later we were asked to further help reviewing the
+                                        company’s strategic plan
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    An investment bank needed to divest a 1Bn Euros car repair network company in
-                    France and asked us to develop the business part of their info memo
-                  </li>
-                  <li>Complexity: very complex structure of the distribution market</li>
-                </ul>
-              </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Analysis of the segmented demand, underlying drivers and
+                                        forecast
+                                    </li>
+                                    <li>
+                                        Blueprint of the competitive landscape, identification of
+                                        business models and assessment of their business efficiency,
+                                        identification of direct competitors
+                                    </li>
+                                    <li>
+                                        Assessment of the strengths and weaknesses of the company
+                                        against identified Key Success Factors vs. direct
+                                        competitors
+                                    </li>
+                                    <li>
+                                        Identification of the growth acceleration levers and
+                                        required investments
+                                    </li>
+                                    <li>
+                                        Realistic 3-year EBITDA for valuation and the level of risks
+                                        / uncertainties
+                                    </li>
+                                    <li>
+                                        Presentation of the investment opportunity to help our
+                                        client to syndicate the required financing for acquisition
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>The company was successfully sold to a Private Equity Fund</li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“Thank you for helping us to build our conviction during the
+                                    due diligence process with robust backed up top line forecasts
+                                    and valuations”</i
+                                >
+                            </p>
+                            <p class="feedback-author">
+                                Investment Director - Global Private Equity fund
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Blueprint of the distribution market structure (business models, channels, types
-                    of players, main competitors per segment) and evolution
-                  </li>
-                  <li>Analysis of the segmented demand (needs, trends, and value)</li>
-                  <li>
-                    Key drivers of the market dynamics (demand and competition) and 3-year demand
-                    forecast
-                  </li>
-                  <li>Identification and description of key success factors</li>
-                  <li>
-                    Relative assessment of client’s company vs. competition along the business key
-                    success factors
-                  </li>
-                  <li>
-                    Identification of priority markets, potential for revenue growth and performance
-                    improvement initiatives
-                  </li>
-                  <li>
-                    Identification of missing capabilities and subsequent required investments
-                  </li>
-                  <li>Detailed business and financial plan, valuation, and investment story</li>
-                  <li>Presentation to investors</li>
-                </ul>
-              </div>
-            </div>
+                <section id="vendor" class="anchor">
+                    <div class="subsection-bar predeal-color--2">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Vendor due diligence</h3>
+                                <p>
+                                    <i
+                                        >Investment bank – Automotive / trucks spart parts and
+                                        repair network – France & UK</i
+                                    >
+                                </p>
+                            </div>
+                            <img src="img/case-studies/predeal3.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“We have been involved in financing this business for 3 years and it is the first
-                  time we fully understand what the company is really about, together with what we
-                  can expect in terms of further development and challenges”</i
-                >
-              </p>
-              <p class="feedback-author">Investment Director - Global Investment Bank</p>
-            </div>
-          </div>
-        </section>
-      </section>
-    </main>
-    <footer>Copyright © Alpha Mater 2023</footer>
-  </body>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        An investment bank needed to divest a 1Bn Euros car repair
+                                        network company in France and asked us to develop the
+                                        business part of their info memo
+                                    </li>
+                                    <li>
+                                        Complexity: very complex structure of the distribution
+                                        market
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        The company was successfully sold to a Private Equity Fund
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Blueprint of the distribution market structure (business
+                                        models, channels, types of players, main competitors per
+                                        segment) and evolution
+                                    </li>
+                                    <li>
+                                        Analysis of the segmented demand (needs, trends, and value)
+                                    </li>
+                                    <li>
+                                        Key drivers of the market dynamics (demand and competition)
+                                        and 3-year demand forecast
+                                    </li>
+                                    <li>Identification and description of key success factors</li>
+                                    <li>
+                                        Relative assessment of client’s company vs. competition
+                                        along the business key success factors
+                                    </li>
+                                    <li>
+                                        Identification of priority markets, potential for revenue
+                                        growth and performance improvement initiatives
+                                    </li>
+                                    <li>
+                                        Identification of missing capabilities and subsequent
+                                        required investments
+                                    </li>
+                                    <li>
+                                        Detailed business and financial plan, valuation, and
+                                        investment story
+                                    </li>
+                                    <li>Presentation to investors</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“We have been involved in financing this business for 3 years
+                                    and it is the first time we fully understand what the company is
+                                    really about, together with what we can expect in terms of
+                                    further development and challenges”</i
+                                >
+                            </p>
+                            <p class="feedback-author">
+                                Investment Director - Global Investment Bank
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>Copyright © Alpha Mater 2023</footer>
+    </body>
 </html>

@@ -62,15 +62,51 @@
         min-width: 38rem;
     }
 
-    .consulting-group-member-content {
-        padding: 4.8rem 2.4rem;
-    }
-
     .content-main-list {
         font-size: 2.4rem;
     }
 
     .content-list {
         margin-left: 1.2rem;
+    }
+}
+
+/* 544px */
+@media (max-width: 34em) {
+    .consulting-group-member-content {
+        padding: 4.8rem 2.4rem;
+    }
+
+    .strategy-img-box,
+    .predeal-img-box,
+    .postdeal-img-box,
+    .transformation-img-box,
+    .marketing-img-box,
+    .sales-img-box {
+        background-image: none;
+    }
+
+    .strategy-content {
+        background-color: #071726;
+    }
+
+    .predeal-content {
+        background-color: #858688;
+    }
+
+    .postdeal-content {
+        background-color: #bac6e1;
+    }
+
+    .transformation-content {
+        background-color: #000;
+    }
+
+    .marketing-content {
+        background-color: #53534b;
+    }
+
+    .sales-content {
+        background-color: #ff7c06;
     }
 }

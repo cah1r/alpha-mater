@@ -217,6 +217,7 @@
     }
 }
 
+/* 600px */
 @media (max-width: 37.5em) {
     .header {
         padding: 0 3.2rem;
@@ -230,6 +231,7 @@
     .quotes h1 {
         text-align: right;
         font-size: 4.2rem;
+        line-height: 1.8;
     }
 
     .main-bar-content {
