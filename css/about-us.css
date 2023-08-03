@@ -1,209 +1,172 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-family: "Cairo", sans-serif;
-  color: #212529;
-  scroll-behavior: smooth;
-  font-size: 62.5%;
+    font-family: "Cairo", sans-serif;
+    color: #212529;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 h3 {
-  font-family: "Copperplate", sans-serif;
-  font-size: 4.4rem;
-  font-weight: 400;
-  line-height: 1;
-  margin-bottom: 2.4rem;
+    font-family: "Copperplate Gothic Light", serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0.8rem;
 }
 
 h4 {
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin-bottom: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
 }
 
 p,
 a,
 li {
-  font-weight: 400;
-  font-size: 2.2rem;
-  line-height: 1.7;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1.7;
 }
 
 main li {
-  margin-left: 2.4rem;
+    margin-left: 2.4rem;
 }
 
 a {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 p {
-  color: #212529;
-  margin-top: 3.2rem;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3.2rem 6.4rem;
-}
-
-.main-nav {
-  list-style: none;
-  display: flex;
-  gap: 3.2rem;
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  text-decoration: none;
-  color: #343a40;
-  font-size: 2.2rem;
-  font-weight: 500;
-  transition: all 0.3s ease-in-out;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: #54677e;
-}
-
-.logo-link:link,
-.logo-link:visited {
-  cursor: pointer;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.logo-link:hover,
-.logo-link:active {
-  opacity: 0.6;
-}
-
-.logo {
-  height: 7.4rem;
+    color: #212529;
+    margin-top: 3.2rem;
 }
 
 /* ******************************************* */
 
 .start-journey-section {
-  background-image: url(../img/about-us/main_background.jpg);
-  background-size: cover;
-  background-position: right;
-  margin-top: 3.6rem;
-  padding: 14.6rem 4.8rem;
+    background-image: url(../img/about-us/main_background.jpg);
+    background-size: cover;
+    background-position: right;
+    margin-top: 3.6rem;
+    padding: 14.6rem 4.8rem;
+}
+
+.start-journey-section h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    line-height: 1.3;
 }
 
 .start-journey-content {
-  display: block;
-  color: #fff;
-  max-width: 78rem;
-  padding: 4.8rem;
-  background-color: rgba(10, 38, 71, 0.4);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    display: block;
+    color: #fff;
+    max-width: 78rem;
+    padding: 4.8rem;
+    background-color: rgba(10, 38, 71, 0.4);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 
-.start-journey-content p {
-  color: #fff;
+.start-journey-content p,
+.start-journey-content li {
+    color: #fff;
+    font-weight: 300;
 }
 
 /* ******************************************* */
 
 .eric-section {
-  display: grid;
-  margin: 16.4rem auto;
-  gap: 8.6em;
-  max-width: 130rem;
-  grid-template-columns: 0.4fr 1.6fr;
+    display: grid;
+    margin: 16.4rem auto;
+    gap: 8.6em;
+    max-width: 130rem;
+    grid-template-columns: 0.4fr 1.6fr;
 }
 
 .eric-img-box img {
-  width: 100%;
+    width: 100%;
 }
 
 .divider {
-  border-top: solid 1px;
-  max-width: 16rem;
+    border-top: solid 1px;
+    max-width: 16rem;
 }
 
-.eric-section h3,
 .consultants-section p:last-child,
 .eric-section p:last-child {
-  margin-bottom: 0;
-}
-
-footer {
-  font-size: 1.6rem;
-  height: 3.6rem;
-  background-color: #0a2647;
-  color: #b6bec8;
-  text-align: center;
+    margin-bottom: 1.6rem;
 }
 
 /* ******************************************* */
 
 .consultants-section {
-  display: grid;
-  margin: 12.8rem auto 18.6rem auto;
-  max-width: 140rem;
-  grid-template-columns: 1fr 1fr;
-  box-shadow: 0 10px 7px rgba(44, 44, 44, 0.3);
-  padding: 6.4rem 0;
+    display: grid;
+    margin: 12.8rem auto 18.6rem auto;
+    max-width: 140rem;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 10px 7px rgba(44, 44, 44, 0.3);
+    padding: 6.4rem 0;
 }
 
 .consultants-img-box {
-  background-image: url(../img/about-us/team.jpg);
-  background-size: cover;
-  background-position: center;
-  margin: 3.6rem;
+    background-image: url(../img/about-us/team.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 3.6rem;
 }
 
 .consultants-content {
-  padding: 4.8rem 2.4rem;
+    padding: 4.8rem 2.4rem;
 }
 
 /* ******************************************* */
 
 .values {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6.4rem;
-  margin: 18.6rem auto 12.8rem auto;
-  max-width: 140rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.4rem;
+    margin: 18.6rem auto 12.8rem auto;
+    max-width: 140rem;
 }
 
 .values-box {
-  border: #aaa solid 2px;
-  padding: 9.6rem 6.4rem;
-  background: radial-gradient(circle, #fff 20%, #ddd);
-  box-shadow: 0 7px 5px rgba(100, 100, 100, 0.4);
+    border: #aaa solid 2px;
+    padding: 9.6rem 6.4rem;
+    background: radial-gradient(circle, #fff 20%, #ddd);
+    box-shadow: 0 7px 5px rgba(100, 100, 100, 0.4);
+}
+
+.values-box--test {
+    background: #eee;
 }
 
 .values-box h3 {
-  display: inline-block;
-  position: relative;
-  color: #b20000;
-  margin-left: 3rem;
+    display: inline-block;
+    position: relative;
+    color: #b20000;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
 }
 
 .values-box li {
-  line-height: 4.8rem;
-  margin-left: 4.8rem;
+    line-height: 4.8rem;
+    margin-left: 4.8rem;
 }
 
 .values-box li::before {
-  line-height: 4.8rem;
+    line-height: 4.8rem;
 }
 
 .values-box h3::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: -0.2rem;
-  width: 100%;
-  border-bottom: 1px solid #21252942;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -0.2rem;
+    width: 100%;
+    border-bottom: 1px solid #21252942;
 }

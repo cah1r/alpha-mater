@@ -1,0 +1,112 @@
+/* 1400px */
+@media (max-width: 87.5em) {
+}
+
+/* 1248px */
+@media (max-width: 78em) {
+    .consulting-groups-section {
+        grid-template-columns: repeat(2, 38rem);
+    }
+}
+
+/* 950px */
+@media (max-width: 59em) {
+    .consulting-group-member-content {
+        padding: 3.6rem 16rem 3.6rem 9.6rem;
+    }
+
+    .strategy-content {
+        background: linear-gradient(to right, #071726 85%, #07172600);
+    }
+
+    .predeal-img-box {
+        background-position: left;
+    }
+
+    .postdeal-img-box {
+        background-position: 10%;
+    }
+
+    .transformation-img-box {
+        background-position: 30%;
+    }
+
+    .marketing-img-box {
+        background-position: 10%;
+    }
+
+    .sales-img-box {
+        background-position: left;
+    }
+}
+
+/* 850px */
+@media (max-width: 53.1em) {
+    .section-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .section-bar-subtitle {
+        display: none;
+    }
+}
+
+/* 670px */
+@media (max-width: 41.8em) {
+    .consulting-groups-section {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .consulting-group-box {
+        min-width: 38rem;
+    }
+
+    .content-main-list {
+        font-size: 2.4rem;
+    }
+
+    .content-list {
+        margin-left: 1.2rem;
+    }
+}
+
+/* 544px */
+@media (max-width: 34em) {
+    .consulting-group-member-content {
+        padding: 4.8rem 2.4rem;
+    }
+
+    .strategy-img-box,
+    .predeal-img-box,
+    .postdeal-img-box,
+    .transformation-img-box,
+    .marketing-img-box,
+    .sales-img-box {
+        background-image: none;
+    }
+
+    .strategy-content {
+        background-color: #071726;
+    }
+
+    .predeal-content {
+        background-color: #858688;
+    }
+
+    .postdeal-content {
+        background-color: #bac6e1;
+    }
+
+    .transformation-content {
+        background-color: #000;
+    }
+
+    .marketing-content {
+        background-color: #53534b;
+    }
+
+    .sales-content {
+        background-color: #ff7c06;
+    }
+}

@@ -1,436 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/section-bar.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/capabilities.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
-    <script defer src="js/scripts.js"></script>
-    <title>Capabilities | Alpha Mater</title>
-  </head>
-  <body>
-    <header class="header">
-      <a class="logo-link" href="index.html">
-        <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
-      </a>
-      <ul class="main-nav">
-        <li><a class="main-nav-link" href="about-us.html">About us</a></li>
-        <li>
-          <a class="main-nav-link active" href="capabilities.html">Capabilities</a>
-        </li>
-        <li>
-          <a class="main-nav-link" href="industries.html">Industries</a>
-        </li>
-        <li>
-          <a class="main-nav-link" href="case-studies.html">Case studies</a>
-        </li>
-        <li><a class="main-nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/section-bar.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/capabilities.css" />
+        <link rel="stylesheet" href="css/common-queries.css" />
+        <link rel="stylesheet" href="css/section-bar-queries.css" />
+        <link rel="stylesheet" href="css/capabilities-queries.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
+        <link href="https://fonts.cdnfonts.com/css/copperplate-gothic-light" rel="stylesheet" />
+        <script defer src="js/scripts.js"></script>
+        <title>Capabilities | Alpha Mater</title>
+    </head>
+    <body>
+        <header class="header">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
+            </a>
+            <ul class="main-nav">
+                <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                <li>
+                    <a class="main-nav-link active" href="capabilities.html">Capabilities</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="industries.html">Industries</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                </li>
+                <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+            </ul>
 
-    <main>
-      <!-- Back to top icon -->
-      <a href="#" id="back-to-top">
-        <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icn" viewBox="0 0 512 512">
-          <rect width="100%" height="100%" fill="transparent" />
-          <path
-            d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                    <li>
+                        <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="industries.html">Industries</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                    </li>
+                    <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu" class="menu-icon">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Back to top icon -->
+            <a href="#" id="back-to-top">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="back-to-top-icn"
+                    viewBox="0 0 512 512"
+                >
+                    <rect width="100%" height="100%" fill="transparent" />
+                    <path
+                        d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
           192-192z"
-            fill="#ffffff40"
-            stroke="currentColor"
-            stroke-miterlimit="10"
-            stroke-width="24"
-          />
-          <path
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="24"
-            d="M176 249.38L256 170l80 79.38M256 181.03V342"
-          />
-        </svg>
-      </a>
-
-      <div class="section-bar">
-        <div class="section-bar-title centered-text">
-          <h2>Consulting Services</h2>
-        </div>
-        <div class="section-bar-subtitle">
-          <p>We focus on growth initiatives</p>
-        </div>
-      </div>
-
-      <section class="consulting-groups-section">
-        <a href="#strategy" class="consulting-group-box">
-          <h4>STRATEGY</h4>
-          <ul class="consulting-group-list">
-            <li>Growth strategy</li>
-            <li>Adjacencies / Repositioning</li>
-            <li>Internationalisation strategy</li>
-          </ul>
-        </a>
-
-        <a href="#pre-deal" class="consulting-group-box">
-          <h4>M&A PRE-DEAL</h4>
-          <ul class="consulting-group-list">
-            <li>Target screening</li>
-            <li>Acquisition due diligence</li>
-            <li>Vendor due diligence</li>
-          </ul>
-        </a>
-
-        <a href="#post-deal" class="consulting-group-box">
-          <h4>M&A POST-DEAL</h4>
-          <ul class="consulting-group-list">
-            <li>Business & operating model</li>
-            <li>Implementation roadmap</li>
-            <li>Integration implementation</li>
-          </ul>
-        </a>
-
-        <a href="#transformation" class="consulting-group-box">
-          <h4>TRANSFORMATION</h4>
-          <ul class="consulting-group-list">
-            <li>Turnaround</li>
-            <li>Digital transformation / AI</li>
-            <li>Efficiency</li>
-          </ul>
-        </a>
-
-        <a href="#marketing" class="consulting-group-box">
-          <h4>MARKETING</h4>
-          <ul class="consulting-group-list">
-            <li>Value proposition design</li>
-            <li>Offer design & positioning</li>
-            <li>Pricing</li>
-          </ul>
-        </a>
-
-        <a href="#sales" class="consulting-group-box">
-          <h4>SALES</h4>
-          <ul class="consulting-group-list">
-            <li>Go-to-market strategy</li>
-            <li>Sales strategy</li>
-            <li>Sales effectiveness</li>
-          </ul>
-        </a>
-      </section>
-
-      <section id="strategy" class="consulting-group-member strategy-img-box light-font">
-        <div class="consulting-group-member-content">
-          <h3>STRATEGY</h3>
-          <p class="divider"></p>
-          <ul class="content-main-list">
-            <li>Growth strategy</li>
-            <li>Adjacencies / Repositioning</li>
-            <li>Internationalisation strategy</li>
-          </ul>
-          <p>
-            In a context where information is plethoric, it becomes increasingly critical to provide
-            deciders with clarity in order to develop the vision and direction for the company.
-          </p>
-          <p>
-            We offer a comprehensive understanding of market dynamics, encompassing clients' needs,
-            value space map, competitive business models, key success factors, differentiating
-            factors, and emerging trends. We identify, describe, and evaluate the most favourable
-            strategic scenarios considering the company's assets.
-          </p>
-          <p>
-            Once the vision is determined and aligned with the company's overarching objectives and
-            financial plan, we craft a strategic plan that not only defines the direction and
-            objectives but also acts as a guiding framework for each business unit and department
-            within the organisation.
-          </p>
-          <div class="go-to-case">
-            <a href="strategy.html" class="go-to-case-link light-font">
-              Case studies
-              <svg xmlns="http://www.w3.org/2000/svg" class="go-to-case-icon" viewBox="0 0 512 512">
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="48"
-                  d="M268 112l144 144-144 144M392 256H100"
-                />
-              </svg>
+                        fill="#ffffff40"
+                        stroke="currentColor"
+                        stroke-miterlimit="10"
+                        stroke-width="24"
+                    />
+                    <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="24"
+                        d="M176 249.38L256 170l80 79.38M256 181.03V342"
+                    />
+                </svg>
             </a>
-          </div>
-        </div>
-      </section>
 
-      <section id="pre-deal" class="consulting-group-member predeal-img-box">
-        <div class="consulting-group-member-content">
-          <h3>M&A PRE-DEAL</h3>
-          <p class="divider"></p>
-          <ul class="content-main-list">
-            <li>Target screening</li>
-            <li>Acquisition due diligence</li>
-            <li>Vendor due diligence</li>
-          </ul>
-          <p>
-            To effectively assess the validity and viability of an acquisition, understanding the
-            target company's sustainable value creation, revenue potential, and potential business
-            synergies is essential.
-          </p>
-          <p>
-            Key analyses establish confidence in the decision-making process. They include market
-            evaluation, competitor analysis, identification of critical success factors, strengths
-            and weaknesses assessment, culture fit evaluation, and identification of key talents.
-          </p>
-          <p>
-            We assist our clients in evaluating target companies as investment opportunities,
-            providing regular updates, and openly discussing findings with the Investment Board to
-            build a comprehensive understanding of the opportunity's value and risks.
-          </p>
-          <div class="go-to-case">
-            <a href="ma-pre-deal.html" class="go-to-case-link dark-font">
-              Case studies
-              <svg xmlns="http://www.w3.org/2000/svg" class="go-to-case-icon" viewBox="0 0 512 512">
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="48"
-                  d="M268 112l144 144-144 144M392 256H100"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
+            <div class="section-bar">
+                <div class="section-bar-title centered-text">
+                    <h2>Consulting Services</h2>
+                </div>
+                <div class="section-bar-subtitle">
+                    <p>We focus on growth initiatives</p>
+                </div>
+            </div>
 
-      <section id="post-deal" class="consulting-group-member postdeal-img-box">
-        <div class="consulting-group-member-content">
-          <h3>M&A POST-DEAL</h3>
-          <p class="divider"></p>
-          <ul class="content-main-list">
-            <li>Business & operating model</li>
-            <li>Implementation roadmap</li>
-            <li>Integration implementation</li>
-          </ul>
-          <p>
-            Transactions is one of the most powerful business initiatives to create value. Yet over
-            70% of buyers do not materialise the synergies planned
-            pre&NoBreak;-&NoBreak;acquisition.
-          </p>
-          <p>A few reasons for this:</p>
-          <ul class="content-list bullet-list">
-            <li>Over optimistic business assessment when acquiring</li>
-            <li>Overlooked business impacts of intangible factors</li>
-            <li>Poor integration execution</li>
-            <li>Underestimated integration time and on-off costs</li>
-          </ul>
-          <p>
-            We have helped global companies to deliver the integration of their acquisitions in
-            difficult cases and situations yet over delivering against their initial plan in terms
-            of actual integration time, synergies materialised and overall Newco performance.
-          </p>
-          <div class="go-to-case">
-            <a href="ma-post-deal.html" class="go-to-case-link dark-font">
-              Case studies
-              <svg xmlns="http://www.w3.org/2000/svg" class="go-to-case-icon" viewBox="0 0 512 512">
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="48"
-                  d="M268 112l144 144-144 144M392 256H100"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
+            <section class="consulting-groups-section">
+                <a href="#strategy" class="consulting-group-box">
+                    <h4>Strategy</h4>
+                    <ul class="consulting-group-list">
+                        <li>Growth strategy</li>
+                        <li>Adjacencies / Repositioning</li>
+                        <li>Internationalisation strategy</li>
+                    </ul>
+                </a>
 
-      <section
-        id="transformation"
-        class="consulting-group-member transformation-img-box light-font"
-      >
-        <div class="consulting-group-member-content">
-          <h3>TRANSFORMATION</h3>
-          <p class="divider"></p>
-          <ul class="content-main-list">
-            <li>Turnaround</li>
-            <li>Digital transformation / AI</li>
-            <li>Efficiency</li>
-          </ul>
-          <p>
-            Consequence of a significant change in a company's direction or a simple performance
-            enhancement, companies are increasingly required to undergo transformations using
-            various levers such as business model changes, business process reengineering (BPR),
-            automation, management system changes, skills enhancement, and culture shift.
-          </p>
-          <p>
-            Today, Data and Artificial Intelligence (AI) is emerging as a new competitive tool. At
-            the crossroad of data, algorithms, business, and IT, it requires a clear digital and AI
-            strategy, as well as significant changes in terms of organization, culture, operations,
-            skillsets, and ultimately, data strategy.
-          </p>
-          <p>
-            We assist our clients to achieve their company's full potential by leveraging our
-            expertise in business transformation, Data & AI strategy, and project implementation.
-          </p>
-          <div class="go-to-case">
-            <a href="transformation.html" class="go-to-case-link light-font">
-              Case studies
-              <svg xmlns="http://www.w3.org/2000/svg" class="go-to-case-icon" viewBox="0 0 512 512">
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="48"
-                  d="M268 112l144 144-144 144M392 256H100"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
+                <a href="#pre-deal" class="consulting-group-box">
+                    <h4>M&A Pre-Deal</h4>
+                    <ul class="consulting-group-list">
+                        <li>Target screening</li>
+                        <li>Acquisition due diligence</li>
+                        <li>Vendor due diligence</li>
+                    </ul>
+                </a>
 
-      <section id="marketing" class="consulting-group-member marketing-img-box light-font">
-        <div class="consulting-group-member-content">
-          <h3>MARKETING</h3>
-          <p class="divider"></p>
-          <ul class="content-main-list">
-            <li>Value proposition design</li>
-            <li>Offer design & positioning</li>
-            <li>Pricing</li>
-          </ul>
-          <p>
-            trategic marketing focuses on identifying client needs and developing a&nbsp;value
-            proposition to meet them. It involves determining what clients are&nbsp;willing to pay
-            for and defining the corresponding offer and pricing.
-          </p>
-          <p>
-            We assist in defining our clients' marketing strategy: clients’ needs, value
-            proposition, offer positioning and features, revenue model, pricing strategy and
-            calculation, USP for communication.
-          </p>
-          <p>Beyond the technical aspects, we place specific emphasis on:</p>
-          <ul class="content-list bullet-list">
-            <li>The thorough understanding of what the client really values and why</li>
-            <li>
-              The alignment of the financials of the offer with the actual level of&nbsp;market
-              appetite
-            </li>
-            <li>The reality and significance of the offer’s differentiation</li>
-          </ul>
-          <div class="go-to-case">
-            <a href="marketing.html" class="go-to-case-link light-font">
-              Case studies
-              <svg xmlns="http://www.w3.org/2000/svg" class="go-to-case-icon" viewBox="0 0 512 512">
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="48"
-                  d="M268 112l144 144-144 144M392 256H100"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
+                <a href="#post-deal" class="consulting-group-box">
+                    <h4>M&A Post-Deal</h4>
+                    <ul class="consulting-group-list">
+                        <li>Business & operating model</li>
+                        <li>Implementation roadmap</li>
+                        <li>Integration implementation</li>
+                    </ul>
+                </a>
 
-      <section id="sales" class="consulting-group-member sales-img-box">
-        <div class="consulting-group-member-content">
-          <h3>SALES</h3>
-          <p class="divider"></p>
-          <ul class="content-main-list">
-            <li>Sales strategy</li>
-            <li>Go-to-market strategy</li>
-            <li>Sales effectiveness</li>
-          </ul>
-          <p>Sales strategy drives up to 60% of medium-term sales results.</p>
-          <p>
-            We help identify the growth areas for the company’s products and services and provide a
-            clear perspective on current and future market sources of&nbsp;profitable growth across
-            various channels.
-          </p>
-          <p>
-            Through detailed analyses, we develop targeted 'sales concepts' tailored
-            to&nbsp;specific segments. We prioritise sales segments, align sales capabilities
-            including key performance indicators (KPIs), processes, IT infrastructure,
-            and&nbsp;skills. And we align sales priorities, investment imperatives,
-            and&nbsp;the&nbsp;overall financial three-year plan.
-          </p>
-          <div class="go-to-case">
-            <a href="sales.html" class="go-to-case-link dark-font">
-              Case studies
-              <svg xmlns="http://www.w3.org/2000/svg" class="go-to-case-icon" viewBox="0 0 512 512">
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="48"
-                  d="M268 112l144 144-144 144M392 256H100"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
+                <a href="#transformation" class="consulting-group-box">
+                    <h4>Transformation</h4>
+                    <ul class="consulting-group-list">
+                        <li>Turnaround</li>
+                        <li>Digital transformation / AI</li>
+                        <li>Efficiency</li>
+                    </ul>
+                </a>
 
-      <section class="consulting-group-member sales-img-box">
-        <div class="consulting-group-member-content light-font">
-          <h3>SALES</h3>
-          <p class="divider"></p>
-          <ul class="content-main-list">
-            <li>Sales strategy</li>
-            <li>Go-to-market strategy</li>
-            <li>Sales effectiveness</li>
-          </ul>
-          <p>Sales strategy drives up to 60% of medium-term sales results.</p>
-          <p>
-            We help identify the growth areas for the company’s products and services and provide a
-            clear perspective on current and future market sources of&nbsp;profitable growth across
-            various channels.
-          </p>
-          <p>
-            Through detailed analyses, we develop targeted 'sales concepts' tailored
-            to&nbsp;specific segments. We prioritise sales segments, align sales capabilities
-            including key performance indicators (KPIs), processes, IT infrastructure,
-            and&nbsp;skills. And we align sales priorities, investment imperatives,
-            and&nbsp;the&nbsp;overall financial three-year plan.
-          </p>
-          <div class="go-to-case">
-            <a href="sales.html" class="go-to-case-link light-font">
-              Case studies
-              <svg xmlns="http://www.w3.org/2000/svg" class="go-to-case-icon" viewBox="0 0 512 512">
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="48"
-                  d="M268 112l144 144-144 144M392 256H100"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>Copyright © Alpha Mater 2023</footer>
-  </body>
+                <a href="#marketing" class="consulting-group-box">
+                    <h4>Marketing</h4>
+                    <ul class="consulting-group-list">
+                        <li>Value proposition design</li>
+                        <li>Offer design & positioning</li>
+                        <li>Pricing</li>
+                    </ul>
+                </a>
+
+                <a href="#sales" class="consulting-group-box">
+                    <h4>Sales</h4>
+                    <ul class="consulting-group-list">
+                        <li>Go-to-market strategy</li>
+                        <li>Sales strategy</li>
+                        <li>Sales effectiveness</li>
+                    </ul>
+                </a>
+            </section>
+
+            <section id="strategy" class="consulting-group-member strategy-img-box light-font">
+                <div class="consulting-group-member-content strategy-content">
+                    <h3>Strategy</h3>
+                    <p class="divider"></p>
+                    <ul class="content-main-list">
+                        <li>Growth strategy</li>
+                        <li>Adjacencies / Repositioning</li>
+                        <li>Internationalisation strategy</li>
+                    </ul>
+                    <p>
+                        In a context where information is plethoric, it becomes increasingly
+                        critical to provide deciders with clarity in order to develop the vision and
+                        direction for the company.
+                    </p>
+                    <p>
+                        We offer a comprehensive understanding of market dynamics, encompassing
+                        clients' needs, value space map, competitive business models, key success
+                        factors, differentiating factors, and emerging trends. We identify,
+                        describe, and evaluate the most favourable strategic scenarios considering
+                        the company's assets.
+                    </p>
+                    <p>
+                        Once the vision is determined and aligned with the company's overarching
+                        objectives and financial plan, we craft a strategic plan that not only
+                        defines the direction and objectives but also acts as a guiding framework
+                        for each business unit and department within the organisation.
+                    </p>
+                    <div class="go-to-case">
+                        <a href="strategy.html" class="go-to-case-link light-font">
+                            Case studies
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="go-to-case-icon"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="48"
+                                    d="M268 112l144 144-144 144M392 256H100"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pre-deal" class="consulting-group-member predeal-img-box">
+                <div class="consulting-group-member-content predeal-content">
+                    <h3>M&A Pre-Deal</h3>
+                    <p class="divider"></p>
+                    <ul class="content-main-list">
+                        <li>Target screening</li>
+                        <li>Acquisition due diligence</li>
+                        <li>Vendor due diligence</li>
+                    </ul>
+                    <p>
+                        To effectively assess the validity and viability of an acquisition,
+                        understanding the target company's sustainable value creation, revenue
+                        potential, and potential business synergies is essential.
+                    </p>
+                    <p>
+                        Key analyses establish confidence in the decision-making process. They
+                        include market evaluation, competitor analysis, identification of critical
+                        success factors, strengths and weaknesses assessment, culture fit
+                        evaluation, and identification of key talents.
+                    </p>
+                    <p>
+                        We assist our clients in evaluating target companies as investment
+                        opportunities, providing regular updates, and openly discussing findings
+                        with the Investment Board to build a comprehensive understanding of the
+                        opportunity's value and risks.
+                    </p>
+                    <div class="go-to-case">
+                        <a href="ma-pre-deal.html" class="go-to-case-link dark-font">
+                            Case studies
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="go-to-case-icon"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="48"
+                                    d="M268 112l144 144-144 144M392 256H100"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="post-deal" class="consulting-group-member postdeal-img-box">
+                <div class="consulting-group-member-content postdeal-content">
+                    <h3>M&A Post-Deal</h3>
+                    <p class="divider"></p>
+                    <ul class="content-main-list">
+                        <li>Business & operating model</li>
+                        <li>Implementation roadmap</li>
+                        <li>Integration implementation</li>
+                    </ul>
+                    <p>
+                        Transactions is one of the most powerful business initiatives to create
+                        value. Yet over 70% of buyers do not materialise the synergies planned
+                        pre&NoBreak;-&NoBreak;acquisition.
+                    </p>
+                    <p>A few reasons for this:</p>
+                    <ul class="content-list bullet-list">
+                        <li>Over optimistic business assessment when acquiring</li>
+                        <li>Overlooked business impacts of intangible factors</li>
+                        <li>Poor integration execution</li>
+                        <li>Underestimated integration time and on-off costs</li>
+                    </ul>
+                    <p>
+                        We have helped global companies to deliver the integration of their
+                        acquisitions in difficult cases and situations yet over delivering against
+                        their initial plan in terms of actual integration time, synergies
+                        materialised and overall Newco performance.
+                    </p>
+                    <div class="go-to-case">
+                        <a href="ma-post-deal.html" class="go-to-case-link dark-font">
+                            Case studies
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="go-to-case-icon"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="48"
+                                    d="M268 112l144 144-144 144M392 256H100"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                id="transformation"
+                class="consulting-group-member transformation-img-box light-font"
+            >
+                <div class="consulting-group-member-content transformation-content">
+                    <h3>Transformation</h3>
+                    <p class="divider"></p>
+                    <ul class="content-main-list">
+                        <li>Turnaround</li>
+                        <li>Digital transformation / AI</li>
+                        <li>Efficiency</li>
+                    </ul>
+                    <p>
+                        Consequence of a significant change in a company's direction or a simple
+                        performance enhancement, companies are increasingly required to undergo
+                        transformations using various levers such as business model changes,
+                        business process reengineering (BPR), automation, management system changes,
+                        skills enhancement, and culture shift.
+                    </p>
+                    <p>
+                        Today, Data and Artificial Intelligence (AI) is emerging as a new
+                        competitive tool. At the crossroad of data, algorithms, business, and IT, it
+                        requires a clear digital and AI strategy, as well as significant changes in
+                        terms of organization, culture, operations, skillsets, and ultimately, data
+                        strategy.
+                    </p>
+                    <p>
+                        We assist our clients to achieve their company's full potential by
+                        leveraging our expertise in business transformation, Data & AI strategy, and
+                        project implementation.
+                    </p>
+                    <div class="go-to-case">
+                        <a href="transformation.html" class="go-to-case-link light-font">
+                            Case studies
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="go-to-case-icon"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="48"
+                                    d="M268 112l144 144-144 144M392 256H100"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="marketing" class="consulting-group-member marketing-img-box light-font">
+                <div class="consulting-group-member-content marketing-content">
+                    <h3>Marketing</h3>
+                    <p class="divider"></p>
+                    <ul class="content-main-list">
+                        <li>Value proposition design</li>
+                        <li>Offer design & positioning</li>
+                        <li>Pricing</li>
+                    </ul>
+                    <p>
+                        Strategic marketing focuses on identifying client needs and developing
+                        a&nbsp;value proposition to meet them. It involves determining what clients
+                        are&nbsp;willing to pay for and defining the corresponding offer and
+                        pricing.
+                    </p>
+                    <p>
+                        We assist in defining our clients' marketing strategy: clients’ needs, value
+                        proposition, offer positioning and features, revenue model, pricing strategy
+                        and calculation, USP for communication.
+                    </p>
+                    <p>Beyond the technical aspects, we place specific emphasis on:</p>
+                    <ul class="content-list bullet-list">
+                        <li>The thorough understanding of what the client really values and why</li>
+                        <li>
+                            The alignment of the financials of the offer with the actual level
+                            of&nbsp;market appetite
+                        </li>
+                        <li>The reality and significance of the offer’s differentiation</li>
+                    </ul>
+                    <div class="go-to-case">
+                        <a href="marketing.html" class="go-to-case-link light-font">
+                            Case studies
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="go-to-case-icon"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="48"
+                                    d="M268 112l144 144-144 144M392 256H100"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sales" class="consulting-group-member sales-img-box">
+                <div class="consulting-group-member-content sales-content">
+                    <h3>Sales</h3>
+                    <p class="divider"></p>
+                    <ul class="content-main-list">
+                        <li>Sales strategy</li>
+                        <li>Go-to-market strategy</li>
+                        <li>Sales effectiveness</li>
+                    </ul>
+                    <p>Sales strategy drives up to 60% of medium-term sales results.</p>
+                    <p>
+                        We help identify the growth areas for the company’s products and services
+                        and provide a clear perspective on current and future market sources
+                        of&nbsp;profitable growth across various channels.
+                    </p>
+                    <p>
+                        Through detailed analyses, we develop targeted 'sales concepts' tailored
+                        to&nbsp;specific segments. We prioritise sales segments, align sales
+                        capabilities including key performance indicators (KPIs), processes, IT
+                        infrastructure, and&nbsp;skills. And we align sales priorities, investment
+                        imperatives, and&nbsp;the&nbsp;overall financial three-year plan.
+                    </p>
+                    <div class="go-to-case">
+                        <a href="sales.html" class="go-to-case-link dark-font">
+                            Case studies
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="go-to-case-icon"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="48"
+                                    d="M268 112l144 144-144 144M392 256H100"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="consulting-group-member sales-img-box">
+                <div class="consulting-group-member-content light-font sales-content">
+                    <h3>Sales</h3>
+                    <p class="divider"></p>
+                    <ul class="content-main-list">
+                        <li>Sales strategy</li>
+                        <li>Go-to-market strategy</li>
+                        <li>Sales effectiveness</li>
+                    </ul>
+                    <p>Sales strategy drives up to 60% of medium-term sales results.</p>
+                    <p>
+                        We help identify the growth areas for the company’s products and services
+                        and provide a clear perspective on current and future market sources
+                        of&nbsp;profitable growth across various channels.
+                    </p>
+                    <p>
+                        Through detailed analyses, we develop targeted 'sales concepts' tailored
+                        to&nbsp;specific segments. We prioritise sales segments, align sales
+                        capabilities including key performance indicators (KPIs), processes, IT
+                        infrastructure, and&nbsp;skills. And we align sales priorities, investment
+                        imperatives, and&nbsp;the&nbsp;overall financial three-year plan.
+                    </p>
+                    <div class="go-to-case">
+                        <a href="sales.html" class="go-to-case-link light-font">
+                            Case studies
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="go-to-case-icon"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="48"
+                                    d="M268 112l144 144-144 144M392 256H100"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>Copyright © Alpha Mater 2023</footer>
+    </body>
 </html>

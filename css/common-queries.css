@@ -1,0 +1,45 @@
+/* 1400px */
+@media (max-width: 87.5em) {
+    .header {
+        padding: 3.2rem;
+        height: 16rem;
+    }
+}
+
+/* 1136px */
+@media (max-width: 71em) {
+    .main-nav {
+        gap: 2.4rem;
+    }
+}
+
+/* 976px */
+@media (max-width: 61em) {
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 2.2rem;
+    }
+}
+
+/* 950px */
+@media (max-width: 59em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* 848px */
+@media (max-width: 55em) {
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav .main-nav-link {
+        font-size: 2.8rem;
+        line-height: 8rem;
+    }
+
+    .mobile-nav {
+        padding-top: 3.2rem;
+    }
+}

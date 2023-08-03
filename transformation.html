@@ -1,455 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/section-bar.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/case-studies-subpage.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
-    <script src="js/scripts.js"></script>
-    <title>Transformation Projects | Alpha Mater</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/section-bar.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/case-studies-subpage.css" />
+        <link rel="stylesheet" href="css/common-queries.css" />
+        <link rel="stylesheet" href="css/section-bar-queries.css" />
+        <link rel="stylesheet" href="css/case-studies-subpage-queries.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
+        <link href="https://fonts.cdnfonts.com/css/copperplate-gothic-light" rel="stylesheet" />
+        <script defer src="js/scripts.js"></script>
+        <title>Transformation Projects | Alpha Mater</title>
+    </head>
 
-  <body>
-    <header class="header">
-      <a class="logo-link" href="index.html">
-        <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
-      </a>
-      <ul class="main-nav">
-        <li><a class="main-nav-link" href="about-us.html">About us</a></li>
-        <li>
-          <a class="main-nav-link" href="capabilities.html">Capabilities</a>
-        </li>
-        <li><a class="main-nav-link" href="industries.html">Industries</a></li>
-        <li>
-          <a class="main-nav-link" href="case-studies.html">Case studies</a>
-        </li>
-        <li><a class="main-nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </header>
+    <body>
+        <header class="header">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
+            </a>
+            <ul class="main-nav">
+                <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                <li>
+                    <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="industries.html">Industries</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                </li>
+                <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+            </ul>
 
-    <!-- Back to top icon -->
-    <a href="#" id="back-to-top">
-      <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icn" viewBox="0 0 512 512">
-        <rect width="100%" height="100%" fill="transparent" />
-        <path
-          d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                    <li>
+                        <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="industries.html">Industries</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                    </li>
+                    <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu" class="menu-icon">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </header>
+
+        <!-- Back to top icon -->
+        <a href="#" id="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icn" viewBox="0 0 512 512">
+                <rect width="100%" height="100%" fill="transparent" />
+                <path
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
           192-192z"
-          fill="#ffffff40"
-          stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-width="24"
-        />
-        <path
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="24"
-          d="M176 249.38L256 170l80 79.38M256 181.03V342"
-        />
-      </svg>
-    </a>
+                    fill="#ffffff40"
+                    stroke="currentColor"
+                    stroke-miterlimit="10"
+                    stroke-width="24"
+                />
+                <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                    d="M176 249.38L256 170l80 79.38M256 181.03V342"
+                />
+            </svg>
+        </a>
 
-    <main>
-      <div class="title-bar transformation-color light-font">
-        <div class="bar-container">
-          <h2 class="section-bar-title">Transformation Projects</h2>
-        </div>
-      </div>
-
-      <section class="page-main-content">
-        <section>
-          <div class="subsection-bar transformation-color--2 light-font">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Turnaround</h3>
-                <p><i>French childcare company - France</i></p>
-              </div>
-              <img src="img/case-studies/transformation1.jpeg" class="img-fx img--11" alt="" />
-            </div>
-          </div>
-
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A French childcare company has approached us to seek assistance in turning
-                    around their performance due to their negative profit level
-                  </li>
-                </ul>
-              </div>
-
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>Profit margin improved from -19% to +25%</li>
-                </ul>
-              </div>
+        <main>
+            <div class="title-bar transformation-color light-font">
+                <div class="bar-container">
+                    <h2 class="section-bar-title">Transformation Projects</h2>
+                </div>
             </div>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>Detailed financial analysis and identification of issues</li>
-                  <li>
-                    Review of organisation, processes, responsibilities, and individual performance
-                    of key staff members
-                  </li>
-                  <li>
-                    Formalisation of processes for key activities such as recruitment and commercial
-                    operations
-                  </li>
-                  <li>
-                    Market analysis for a newly launched activity, including demand, key success
-                    factors, competition types and the strengths and weaknesses of market players
-                  </li>
-                  <li>Development and evaluation of scenarios to reduce the loss</li>
-                  <li>
-                    Calculation of financial objectives and development of a follow up dashboard
-                  </li>
-                  <li>
-                    Development of a new organisational structure, including identification of
-                    skills for each position, scope of responsibility, attached KPIs and incentive
-                    system
-                  </li>
-                  <li>Development of recruitment process and KPIS to reduce turnover</li>
-                  <li>Coaching of the key staff members</li>
-                  <li>Development of an action plan and handover</li>
-                </ul>
-              </div>
-            </div>
+            <section class="page-main-content">
+                <section>
+                    <div class="subsection-bar transformation-color--2 light-font">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Turnaround</h3>
+                                <p><i>French childcare company - France</i></p>
+                            </div>
+                            <img src="img/case-studies/transformation1.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“Your support has unlocked the situation and set for us the direction for the
-                  years to come. A few years later, we are still using what you have helped us set
-                  up”</i
-                >
-              </p>
-              <p class="feedback-author">MD and owner – Childcare company</p>
-            </div>
-          </div>
-        </section>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A French childcare company has approached us to seek
+                                        assistance in turning around their performance due to their
+                                        negative profit level
+                                    </li>
+                                </ul>
+                            </div>
 
-        <section id="digital" class="anchor">
-          <div class="subsection-bar transformation-color--2 light-font">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Digital transformation – Data strategy</h3>
-                <p><i>Perfume company - Europe</i></p>
-              </div>
-              <img src="img/case-studies/transformation2.jpeg" class="img-fx img--11" alt="" />
-            </div>
-          </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>Profit margin improved from -19% to +25%</li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A company in the fragrance industry asked to review how they could better
-                    leverage technology and data to enhance their competitiveness
-                  </li>
-                </ul>
-              </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Detailed financial analysis and identification of issues
+                                    </li>
+                                    <li>
+                                        Review of organisation, processes, responsibilities, and
+                                        individual performance of key staff members
+                                    </li>
+                                    <li>
+                                        Formalisation of processes for key activities such as
+                                        recruitment and commercial operations
+                                    </li>
+                                    <li>
+                                        Market analysis for a newly launched activity, including
+                                        demand, key success factors, competition types and the
+                                        strengths and weaknesses of market players
+                                    </li>
+                                    <li>
+                                        Development and evaluation of scenarios to reduce the loss
+                                    </li>
+                                    <li>
+                                        Calculation of financial objectives and development of a
+                                        follow up dashboard
+                                    </li>
+                                    <li>
+                                        Development of a new organisational structure, including
+                                        identification of skills for each position, scope of
+                                        responsibility, attached KPIs and incentive system
+                                    </li>
+                                    <li>
+                                        Development of recruitment process and KPIS to reduce
+                                        turnover
+                                    </li>
+                                    <li>Coaching of the key staff members</li>
+                                    <li>Development of an action plan and handover</li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Development of 2 AI enhanced application with 25% operational productivity gain
-                  </li>
-                  <li>Formulation of data strategy (areas of automation and data capture)</li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“Your support has unlocked the situation and set for us the
+                                    direction for the years to come. A few years later, we are still
+                                    using what you have helped us set up”</i
+                                >
+                            </p>
+                            <p class="feedback-author">MD and owner – Childcare company</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Workshops: Identification of the burning issues across all departments,
-                    introduction of Artificial Intelligence fundamentals and concrete business
-                    applications
-                  </li>
-                  <li>
-                    Identification of the burning issues where AI could impact, ranking of the
-                    initiatives (accessibility / attractiveness) and selection of the top 3 topics
-                  </li>
-                  <li>
-                    Review and assessment of the historical structured and unstructured data across
-                    all relevant departments – data resource mapping
-                  </li>
-                  <li>Selection of AI “on the shelf” applications and providers</li>
-                  <li>Review the results of machine learning apps on company data</li>
-                  <li>Definition of the required transformation for the company’s operations</li>
-                  <li>Roll-out (communication, IT, organisation, skills, training)</li>
-                  <li>Data strategy to enable further use of AI in the future</li>
-                </ul>
-              </div>
-            </div>
+                <section id="digital" class="anchor">
+                    <div class="subsection-bar transformation-color--2 light-font">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Digital transformation – Data strategy</h3>
+                                <p><i>Perfume company - Europe</i></p>
+                            </div>
+                            <img src="img/case-studies/transformation2.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“This project has set us up to ensure that we are fully prepared to leverage our
-                  data to our advantage”</i
-                >
-              </p>
-              <p class="feedback-author">MD – Head of Product</p>
-            </div>
-          </div>
-        </section>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A company in the fragrance industry asked to review how they
+                                        could better leverage technology and data to enhance their
+                                        competitiveness
+                                    </li>
+                                </ul>
+                            </div>
 
-        <section>
-          <div class="subsection-bar transformation-color--2 light-font">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Digital Transformation – Process automation</h3>
-                <p><i>British B2B Insurance company - UK</i></p>
-              </div>
-              <img src="img/case-studies/transformation3.jpeg" class="img-fx img--11" alt="" />
-            </div>
-          </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Development of 2 AI enhanced application with 25%
+                                        operational productivity gain
+                                    </li>
+                                    <li>
+                                        Formulation of data strategy (areas of automation and data
+                                        capture)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    An insurance company specializing in serving companies and high-net-worth
-                    individuals faced an extraordinarily high volume of business claims to process
-                    following the aftermath of the Covid pandemic and asked us to digitalise and
-                    automatise their key processes
-                  </li>
-                </ul>
-              </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Workshops: Identification of the burning issues across all
+                                        departments, introduction of Artificial Intelligence
+                                        fundamentals and concrete business applications
+                                    </li>
+                                    <li>
+                                        Identification of the burning issues where AI could impact,
+                                        ranking of the initiatives (accessibility / attractiveness)
+                                        and selection of the top 3 topics
+                                    </li>
+                                    <li>
+                                        Review and assessment of the historical structured and
+                                        unstructured data across all relevant departments – data
+                                        resource mapping
+                                    </li>
+                                    <li>
+                                        Selection of AI “on the shelf” applications and providers
+                                    </li>
+                                    <li>
+                                        Review the results of machine learning apps on company data
+                                    </li>
+                                    <li>
+                                        Definition of the required transformation for the company’s
+                                        operations
+                                    </li>
+                                    <li>
+                                        Roll-out (communication, IT, organisation, skills, training)
+                                    </li>
+                                    <li>Data strategy to enable further use of AI in the future</li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Formalisation, rehaul and implementation of the claim processes long with the
-                    setup of the IT software and the training development to support the automation
-                    of complex claims processing
-                  </li>
-                  <li>
-                    Covid claims were processed promptly and in strict adherence to regulations,
-                    contracts, and the company's integrity standards
-                  </li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“This project has set us up to ensure that we are fully
+                                    prepared to leverage our data to our advantage”</i
+                                >
+                            </p>
+                            <p class="feedback-author">MD – Head of Product</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Assessment of the magnitude of the operational challenge (# claims per level of
-                    complexity, sector, channel, clients’ size, estimates of amount of indemnity at
-                    stakes per segment, ‘business-as-usual’ KPIs…)
-                  </li>
-                  <li>Description of business KPIs and key success factors for the project</li>
-                  <li>
-                    Description of the existing processes and departments involved per client
-                    segments and type of claims
-                  </li>
-                  <li>Identification of high priority claims and prioritisation</li>
-                  <li>Design of operational processes including claims rules</li>
-                  <li>Evaluation of the existing digital data quality and availability</li>
-                  <li>
-                    Management of workstreams: process development, validation process, training,
-                    claims rules, alignment of IT functionalities with processes, pilot
-                    implementation, crash tests, external communication, controls and compliance,
-                    organisation, and reporting
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+                <section>
+                    <div class="subsection-bar transformation-color--2 light-font">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Digital Transformation – Process automation</h3>
+                                <p><i>British B2B Insurance company - UK</i></p>
+                            </div>
+                            <img src="img/case-studies/transformation3.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-        <section id="reengineering" class="anchor">
-          <div class="subsection-bar transformation-color--2 light-font">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Business Process Reengineering</h3>
-                <p><i>Global Starch producer - Europe</i></p>
-              </div>
-              <img src="img/case-studies/transformation4.jpeg" class="img-fx img--11" alt="" />
-            </div>
-          </div>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        An insurance company specializing in serving companies and
+                                        high-net-worth individuals faced an extraordinarily high
+                                        volume of business claims to process following the aftermath
+                                        of the Covid pandemic and asked us to digitalise and
+                                        automatise their key processes
+                                    </li>
+                                </ul>
+                            </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Our client asked us to help them redefine their sales and marketing operations
-                    to adapt to the increasing complexity of their clients (multiple markets with
-                    diverse culture, buying process, company sizes, highly specialised technical
-                    application of their products) requiring different skill sets in specific
-                    technical domains to meet their demands
-                  </li>
-                </ul>
-              </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Formalisation, rehaul and implementation of the claim
+                                        processes long with the setup of the IT software and the
+                                        training development to support the automation of complex
+                                        claims processing
+                                    </li>
+                                    <li>
+                                        Covid claims were processed promptly and in strict adherence
+                                        to regulations, contracts, and the company's integrity
+                                        standards
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>Sales uplift: +22%, gross margin uplift: 15%</li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Assessment of the magnitude of the operational challenge (#
+                                        claims per level of complexity, sector, channel, clients’
+                                        size, estimates of amount of indemnity at stakes per
+                                        segment, ‘business-as-usual’ KPIs…)
+                                    </li>
+                                    <li>
+                                        Description of business KPIs and key success factors for the
+                                        project
+                                    </li>
+                                    <li>
+                                        Description of the existing processes and departments
+                                        involved per client segments and type of claims
+                                    </li>
+                                    <li>
+                                        Identification of high priority claims and prioritisation
+                                    </li>
+                                    <li>Design of operational processes including claims rules</li>
+                                    <li>
+                                        Evaluation of the existing digital data quality and
+                                        availability
+                                    </li>
+                                    <li>
+                                        Management of workstreams: process development, validation
+                                        process, training, claims rules, alignment of IT
+                                        functionalities with processes, pilot implementation, crash
+                                        tests, external communication, controls and compliance,
+                                        organisation, and reporting
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Segmentation of clients based on industry and product use, size, buying process
-                    and geography
-                  </li>
-                  <li>
-                    Description of the company’s existing sales and marketing approaches, processes,
-                    organisation, skills, and incentive system
-                  </li>
-                  <li>
-                    Description of clients’ needs and decision-making process for each segment
-                  </li>
-                  <li>Redesigning processes to better meet clients' needs at each touchpoint</li>
-                  <li>
-                    Identification and design of required capabilities including KPIs, processes, IT
-                    systems, skills, organisation, and incentive system
-                  </li>
-                  <li>Calculation of the financial impacts of the transformation</li>
-                  <li>Development of an action plan for execution</li>
-                </ul>
-              </div>
-            </div>
+                <section id="reengineering" class="anchor">
+                    <div class="subsection-bar transformation-color--2 light-font">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Business Process Reengineering</h3>
+                                <p><i>Global Starch producer - Europe</i></p>
+                            </div>
+                            <img src="img/case-studies/transformation4.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“You have helped us to align our capabilities with the complexities of our
-                  markets”</i
-                >
-              </p>
-              <p class="feedback-author">CEO – Global Starch company</p>
-            </div>
-          </div>
-        </section>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Our client asked us to help them redefine their sales and
+                                        marketing operations to adapt to the increasing complexity
+                                        of their clients (multiple markets with diverse culture,
+                                        buying process, company sizes, highly specialised technical
+                                        application of their products) requiring different skill
+                                        sets in specific technical domains to meet their demands
+                                    </li>
+                                </ul>
+                            </div>
 
-        <section>
-          <div class="subsection-bar transformation-color--2 light-font">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Procurement transformation</h3>
-                <p><i>French global travel and tourism operator - Asia</i></p>
-              </div>
-              <img src="img/case-studies/transformation5.jpeg" class="img-fx img--12" alt="" />
-            </div>
-          </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>Sales uplift: +22%, gross margin uplift: 15%</li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Our client's strategy involved repositioning their offering towards high-end
-                    resorts while also undertaking a thorough review and optimisation of their cost
-                    structure. We were asked to assist them with the cost optimization initiatives
-                  </li>
-                  <li>
-                    Complexity: Multiple and heterogeneous purchasing categories, with certain
-                    categories impacting the level of service, highly decentralised purchasing
-                    processes and teams, large inflexible providers with very few alternatives
-                  </li>
-                </ul>
-              </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Segmentation of clients based on industry and product use,
+                                        size, buying process and geography
+                                    </li>
+                                    <li>
+                                        Description of the company’s existing sales and marketing
+                                        approaches, processes, organisation, skills, and incentive
+                                        system
+                                    </li>
+                                    <li>
+                                        Description of clients’ needs and decision-making process
+                                        for each segment
+                                    </li>
+                                    <li>
+                                        Redesigning processes to better meet clients' needs at each
+                                        touchpoint
+                                    </li>
+                                    <li>
+                                        Identification and design of required capabilities including
+                                        KPIs, processes, IT systems, skills, organisation, and
+                                        incentive system
+                                    </li>
+                                    <li>
+                                        Calculation of the financial impacts of the transformation
+                                    </li>
+                                    <li>Development of an action plan for execution</li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>
-                    15%, 18%, and 4% savings in the 3 key categories, accounting for 85% of the
-                    purchasing budget
-                  </li>
-                  <li>Alignment of local practices with global purchasing optimisation plan</li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“You have helped us to align our capabilities with the
+                                    complexities of our markets”</i
+                                >
+                            </p>
+                            <p class="feedback-author">CEO – Global Starch company</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>Segmentation of purchasing categories</li>
-                  <li>
-                    Identification of high-impact savings opportunities and “low handing fruits”
-                  </li>
-                  <li>Identification savings initiatives for each category</li>
-                  <li>Calculation of the potential gains</li>
-                  <li>
-                    Development of procurement processes to sustain initial savings and ensure
-                    ongoing optimisation
-                  </li>
-                  <li>Development of a detailed execution plan</li>
-                  <li>
-                    Initiation of savings implementation and handover to the company's execution
-                    team
-                  </li>
-                </ul>
-              </div>
-            </div>
+                <section>
+                    <div class="subsection-bar transformation-color--2 light-font">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Procurement transformation</h3>
+                                <p><i>French global travel and tourism operator - Asia</i></p>
+                            </div>
+                            <img src="img/case-studies/transformation5.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“I would like to express my gratitude to the consulting team for their exemplary
-                  leadership throughout this project, despite the challenging circumstances. We
-                  deeply appreciate your ability to recognize and address the unique characteristics
-                  of our diverse Asian region compared to other parts of the world. Working
-                  alongside you, our team has gained invaluable knowledge and now feels confident
-                  moving forward. We have been truly inspired by the passion and energy you have
-                  demonstrated. Your support encompassed all three aspects of this initiative: your
-                  wisdom in determining what needed to be done, your expertise in knowing how to do
-                  it, and your commitment to executing it effectively”</i
-                >
-              </p>
-              <p class="feedback-author">CEO Asia Pacific – Global travel and tourism operator</p>
-            </div>
-          </div>
-        </section>
-      </section>
-    </main>
-    <footer>Copyright © Alpha Mater 2023</footer>
-  </body>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Our client's strategy involved repositioning their offering
+                                        towards high-end resorts while also undertaking a thorough
+                                        review and optimisation of their cost structure. We were
+                                        asked to assist them with the cost optimization initiatives
+                                    </li>
+                                    <li>
+                                        Complexity: Multiple and heterogeneous purchasing
+                                        categories, with certain categories impacting the level of
+                                        service, highly decentralised purchasing processes and
+                                        teams, large inflexible providers with very few alternatives
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        15%, 18%, and 4% savings in the 3 key categories, accounting
+                                        for 85% of the purchasing budget
+                                    </li>
+                                    <li>
+                                        Alignment of local practices with global purchasing
+                                        optimisation plan
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>Segmentation of purchasing categories</li>
+                                    <li>
+                                        Identification of high-impact savings opportunities and “low
+                                        handing fruits”
+                                    </li>
+                                    <li>Identification savings initiatives for each category</li>
+                                    <li>Calculation of the potential gains</li>
+                                    <li>
+                                        Development of procurement processes to sustain initial
+                                        savings and ensure ongoing optimisation
+                                    </li>
+                                    <li>Development of a detailed execution plan</li>
+                                    <li>
+                                        Initiation of savings implementation and handover to the
+                                        company's execution team
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“I would like to express my gratitude to the consulting team
+                                    for their exemplary leadership throughout this project, despite
+                                    the challenging circumstances. We deeply appreciate your ability
+                                    to recognize and address the unique characteristics of our
+                                    diverse Asian region compared to other parts of the world.
+                                    Working alongside you, our team has gained invaluable knowledge
+                                    and now feels confident moving forward. We have been truly
+                                    inspired by the passion and energy you have demonstrated. Your
+                                    support encompassed all three aspects of this initiative: your
+                                    wisdom in determining what needed to be done, your expertise in
+                                    knowing how to do it, and your commitment to executing it
+                                    effectively”</i
+                                >
+                            </p>
+                            <p class="feedback-author">
+                                CEO Asia Pacific – Global travel and tourism operator
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>Copyright © Alpha Mater 2023</footer>
+    </body>
 </html>

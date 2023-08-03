@@ -1,0 +1,13 @@
+/* 1400px */
+@media (max-width: 87.5em) {
+    h2 {
+        font-size: 3.6rem;
+    }
+}
+
+/* 1248px */
+@media (max-width: 78em) {
+    .section-bar {
+        grid-template-columns: 1fr 1fr;
+    }
+}

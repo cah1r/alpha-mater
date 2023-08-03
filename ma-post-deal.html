@@ -1,336 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/section-bar.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/case-studies-subpage.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
-    <script src="js/scripts.js"></script>
-    <title>Post-deal Projects | Alpha Mater</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/section-bar.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/case-studies-subpage.css" />
+        <link rel="stylesheet" href="css/common-queries.css" />
+        <link rel="stylesheet" href="css/section-bar-queries.css" />
+        <link rel="stylesheet" href="css/case-studies-subpage-queries.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet" />
+        <link href="https://fonts.cdnfonts.com/css/copperplate-gothic-light" rel="stylesheet" />
+        <script defer src="js/scripts.js"></script>
+        <title>Post-deal Projects | Alpha Mater</title>
+    </head>
 
-  <body>
-    <header class="header">
-      <a class="logo-link" href="index.html">
-        <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
-      </a>
-      <ul class="main-nav">
-        <li><a class="main-nav-link" href="about-us.html">About us</a></li>
-        <li>
-          <a class="main-nav-link" href="capabilities.html">Capabilities</a>
-        </li>
-        <li><a class="main-nav-link" href="industries.html">Industries</a></li>
-        <li>
-          <a class="main-nav-link" href="case-studies.html">Case studies</a>
-        </li>
-        <li><a class="main-nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </header>
+    <body>
+        <header class="header">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="img/logo_transparent.png" alt="alpha mater company logo" />
+            </a>
+            <ul class="main-nav">
+                <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                <li>
+                    <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="industries.html">Industries</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                </li>
+                <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+            </ul>
 
-    <!-- Back to top icon -->
-    <a href="#" id="back-to-top">
-      <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icn" viewBox="0 0 512 512">
-        <rect width="100%" height="100%" fill="transparent" />
-        <path
-          d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
+            <nav id="mobile-nav" class="mobile-nav">
+                <ul>
+                    <li><a class="main-nav-link" href="about-us.html">About us</a></li>
+                    <li>
+                        <a class="main-nav-link" href="capabilities.html">Capabilities</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="industries.html">Industries</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="case-studies.html">Case studies</a>
+                    </li>
+                    <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu" class="menu-icon">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </header>
+
+        <!-- Back to top icon -->
+        <a href="#" id="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icn" viewBox="0 0 512 512">
+                <rect width="100%" height="100%" fill="transparent" />
+                <path
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86
           192-192z"
-          fill="none"
-          stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-width="24"
-        />
-        <path
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="24"
-          d="M176 249.38L256 170l80 79.38M256 181.03V342"
-        />
-      </svg>
-    </a>
-
-    <main>
-      <div class="title-bar postdeal-color">
-        <div class="bar-container">
-          <h2 class="section-bar-title">Post-deal Projects</h2>
-        </div>
-      </div>
-
-      <section class="page-main-content">
-        <section>
-          <div class="subsection-bar postdeal-color--2">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Integration strategy</h3>
-                <p><i>OTC Pharmaceutical and Consumer Goods - Russia</i></p>
-              </div>
-              <div class="img-bucket">
-                <img
-                  src="img/case-studies/postdeal1.jpeg"
-                  class="img-fx resize-double-img"
-                  alt=""
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-miterlimit="10"
+                    stroke-width="24"
                 />
-                <img
-                  src="img/case-studies/postdeal2.jpeg"
-                  class="img-fx resize-double-img"
-                  alt=""
+                <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                    d="M176 249.38L256 170l80 79.38M256 181.03V342"
                 />
-              </div>
-            </div>
-          </div>
+            </svg>
+        </a>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A British Pharmaceutical and Consumer goods company needed to merge its
-                    operations in Russia with a newly acquired Russian FMCG company
-                  </li>
-                  <li>
-                    Complexity: 2 incompatible business models (go-to-market, sales operations,
-                    logistics, incentive systems, and culture), the risk of destroying up to 50% of
-                    the revenue, time pressure due to unsuccessful previous attempts, very low
-                    collaboration from the acquire company
-                  </li>
-                </ul>
-              </div>
-
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A hybrid business model respecting the business fundamentals of the acquirer
-                  </li>
-                  <li>
-                    An ambitious 2-year integration of the companies together with a transformation
-                    plan (inc. digitalisation of field sales forces operations, carve-out of
-                    non-strategic activities and closure of non-strategic logistic capabilities…)
-                  </li>
-                </ul>
-              </div>
+        <main>
+            <div class="title-bar postdeal-color">
+                <div class="bar-container">
+                    <h2 class="section-bar-title">Post-deal Projects</h2>
+                </div>
             </div>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Description of both businesses: clients, products, operating models (e.g. sales
-                    KPIs, processes, organisation…), capabilities and financials
-                  </li>
-                  <li>
-                    Description of the market perspectives and business priorities for each company
-                    stand-alone
-                  </li>
-                  <li>
-                    Development of a strategy for the merger: vision, strategy, business, and
-                    operating model
-                  </li>
-                  <li>Detailed financial modelling and simulation of various options</li>
-                  <li>Multiple workshops with the board of management and CEO</li>
-                  <li>
-                    Very detailed description of the target merged company (financials, improvement
-                    levers and impacts, sales go-to-market and operating model, logistic model, IT
-                    tools, incentive systems, support function organisation…)
-                  </li>
-                  <li>Detailed transition and implementation plan</li>
-                </ul>
-              </div>
-            </div>
+            <section class="page-main-content">
+                <section>
+                    <div class="subsection-bar postdeal-color--2">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Integration strategy</h3>
+                                <p><i>OTC Pharmaceutical and Consumer Goods - Russia</i></p>
+                            </div>
+                            <div class="img-bucket">
+                                <img src="img/case-studies/postdeal1.jpg" class="img-fx" alt="" />
+                                <img src="img/case-studies/postdeal2.jpg" class="img-fx" alt="" />
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“You have led the biggest merger for the firm for the last 20 years and clearly
-                  helped us clarify the what, why, and how. You have been instrumental in supporting
-                  our decision to move forward with an ambitious integration plan that delivered
-                  beyond our initial financial expectation”</i
-                >
-              </p>
-              <p class="feedback-author">Head of Strategy – Global FMCG Company</p>
-            </div>
-          </div>
-        </section>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A British Pharmaceutical and Consumer goods company needed
+                                        to merge its operations in Russia with a newly acquired
+                                        Russian FMCG company
+                                    </li>
+                                    <li>
+                                        Complexity: 2 incompatible business models (go-to-market,
+                                        sales operations, logistics, incentive systems, and
+                                        culture), the risk of destroying up to 50% of the revenue,
+                                        time pressure due to unsuccessful previous attempts, very
+                                        low collaboration from the acquire company
+                                    </li>
+                                </ul>
+                            </div>
 
-        <section id="integration-execution" class="anchor">
-          <div class="subsection-bar postdeal-color--2">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Integration execution</h3>
-                <p><i>OTC Pharmaceutical and Consumer Goods - Russia</i></p>
-              </div>
-              <div class="img-bucket">
-                <img
-                  src="img/case-studies/postdeal1.jpeg"
-                  class="img-fx resize-double-img"
-                  alt=""
-                />
-                <img
-                  src="img/case-studies/postdeal2.jpeg"
-                  class="img-fx resize-double-img"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A hybrid business model respecting the business fundamentals
+                                        of the acquirer
+                                    </li>
+                                    <li>
+                                        An ambitious 2-year integration of the companies together
+                                        with a transformation plan (inc. digitalisation of field
+                                        sales forces operations, carve-out of non-strategic
+                                        activities and closure of non-strategic logistic
+                                        capabilities…)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A British Pharmaceutical and Consumer goods company needed some support to
-                    deliver the integration execution of a recent acquisition
-                  </li>
-                  <li>
-                    Complexity: to not hinder the business results, tight integration deadline
-                  </li>
-                </ul>
-              </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Description of both businesses: clients, products, operating
+                                        models (e.g. sales KPIs, processes, organisation…),
+                                        capabilities and financials
+                                    </li>
+                                    <li>
+                                        Description of the market perspectives and business
+                                        priorities for each company stand-alone
+                                    </li>
+                                    <li>
+                                        Development of a strategy for the merger: vision, strategy,
+                                        business, and operating model
+                                    </li>
+                                    <li>
+                                        Detailed financial modelling and simulation of various
+                                        options
+                                    </li>
+                                    <li>Multiple workshops with the board of management and CEO</li>
+                                    <li>
+                                        Very detailed description of the target merged company
+                                        (financials, improvement levers and impacts, sales
+                                        go-to-market and operating model, logistic model, IT tools,
+                                        incentive systems, support function organisation…)
+                                    </li>
+                                    <li>Detailed transition and implementation plan</li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>+60% revenue delivered in 3 years reaching £0.7Bn</li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“You have led the biggest merger for the firm for the last 20
+                                    years and clearly helped us clarify the what, why, and how. You
+                                    have been instrumental in supporting our decision to move
+                                    forward with an ambitious integration plan that delivered beyond
+                                    our initial financial expectation”</i
+                                >
+                            </p>
+                            <p class="feedback-author">Head of Strategy – Global FMCG Company</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>
-                    Development of a detailed operations design for sales, marketing, logistics,
-                    support functions (capabilities, processes, skills…)
-                  </li>
-                  <li>
-                    Organisation of the integration team and capabilities including people and tools
-                  </li>
-                  <li>
-                    Development of the program management (400 main actions and 11 workstreams),
-                    coordination and follow up
-                  </li>
-                  <li>Support provided to each workgroup until completion</li>
-                  <li>
-                    Development and implementation of pilots for the most complex operations before
-                    full-scale rollout
-                  </li>
-                  <li>
-                    Regular reporting to the board on the Integration progress and its business
-                    impacts
-                  </li>
-                  <li>Support to change management</li>
-                </ul>
-              </div>
-            </div>
+                <section id="integration-execution" class="anchor">
+                    <div class="subsection-bar postdeal-color--2">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Integration execution</h3>
+                                <p><i>OTC Pharmaceutical and Consumer Goods - Russia</i></p>
+                            </div>
+                            <div class="img-bucket">
+                                <img src="img/case-studies/postdeal1.jpg" class="img-fx" alt="" />
+                                <img src="img/case-studies/postdeal2.jpg" class="img-fx" alt="" />
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“Thank you for your hard work, relentless energy, and the structure you brought.
-                  Without you, we wouldn’t have made it”</i
-                >
-              </p>
-              <p class="feedback-author">CEO Russia CIS – Global FMCG company</p>
-            </div>
-          </div>
-        </section>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A British Pharmaceutical and Consumer goods company needed
+                                        some support to deliver the integration execution of a
+                                        recent acquisition
+                                    </li>
+                                    <li>
+                                        Complexity: to not hinder the business results, tight
+                                        integration deadline
+                                    </li>
+                                </ul>
+                            </div>
 
-        <section id="carve-out" class="anchor">
-          <div class="subsection-bar postdeal-color--2">
-            <div class="container subsection-bar-content">
-              <div class="subsection-title">
-                <h3>Carve out</h3>
-                <p><i>UK Medical products company - Russia</i></p>
-              </div>
-              <img src="img/case-studies/postdeal3.jpeg" class="img-fx img--11" alt="" />
-            </div>
-          </div>
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>+60% revenue delivered in 3 years reaching £0.7Bn</li>
+                                </ul>
+                            </div>
+                        </div>
 
-          <div class="subsection-content container">
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>QUESTION</h4>
-                <ul class="bullet-list">
-                  <li>
-                    A British global company producing and delivering FMCG, and medical products
-                    wanted to carve-out their medical business in Russia
-                  </li>
-                </ul>
-              </div>
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Development of a detailed operations design for sales,
+                                        marketing, logistics, support functions (capabilities,
+                                        processes, skills…)
+                                    </li>
+                                    <li>
+                                        Organisation of the integration team and capabilities
+                                        including people and tools
+                                    </li>
+                                    <li>
+                                        Development of the program management (400 main actions and
+                                        11 workstreams), coordination and follow up
+                                    </li>
+                                    <li>Support provided to each workgroup until completion</li>
+                                    <li>
+                                        Development and implementation of pilots for the most
+                                        complex operations before full-scale rollout
+                                    </li>
+                                    <li>
+                                        Regular reporting to the board on the Integration progress
+                                        and its business impacts
+                                    </li>
+                                    <li>Support to change management</li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="content-block">
-                <h4>RESULT</h4>
-                <ul class="bullet-list">
-                  <li>The carve-out was successfully executed with the carved-out company sold</li>
-                </ul>
-              </div>
-            </div>
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“Thank you for your hard work, relentless energy, and the
+                                    structure you brought. Without you, we wouldn’t have made it”</i
+                                >
+                            </p>
+                            <p class="feedback-author">CEO Russia CIS – Global FMCG company</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="content-cell">
-              <div class="content-block">
-                <h4>APPROACH</h4>
-                <ul class="bullet-list">
-                  <li>Description of the company’s activity segments, capabilities and assets</li>
-                  <li>
-                    Analyses to define the exit strategy options including potential investors and
-                    buyers
-                  </li>
-                  <li>
-                    Identification of shared capabilities and assets, together with and assessment
-                    of the level and nature of entanglement
-                  </li>
-                  <li>Allocation of shared capabilities and assets</li>
-                  <li>
-                    Evaluation of solutions for carved-out business to ensure continued operations
-                  </li>
-                  <li>
-                    Calculation of de-synergies – impacts on the business, P&L, and balance sheet
-                  </li>
-                  <li>Calculation of separation costs both on-going and one-off</li>
-                  <li>
-                    Identification and calculation of growth areas for the carved-out company to
-                    build a compelling investment story
-                  </li>
-                  <li>Development of an implementation plan</li>
-                </ul>
-              </div>
-            </div>
+                <section id="carve-out" class="anchor">
+                    <div class="subsection-bar postdeal-color--2">
+                        <div class="container subsection-bar-content">
+                            <div class="subsection-title">
+                                <h3>Carve out</h3>
+                                <p><i>UK Medical products company - Russia</i></p>
+                            </div>
+                            <img src="img/case-studies/postdeal3.jpg" class="img-fx" alt="" />
+                        </div>
+                    </div>
 
-            <div class="content-block client-feedback">
-              <h4>CLIENT FEEDBACK</h4>
-              <p>
-                <i
-                  >“Your structured approach and analyses helped us to decide and execute the
-                  carve-out and deliver the exit strategy successfully”</i
-                >
-              </p>
-              <p class="feedback-author">VP Medical products - UK</p>
-            </div>
-          </div>
-        </section>
-      </section>
-    </main>
-    <footer>Copyright © Alpha Mater 2023</footer>
-  </body>
+                    <div class="subsection-content container">
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>QUESTION</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        A British global company producing and delivering FMCG, and
+                                        medical products wanted to carve-out their medical business
+                                        in Russia
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="content-block">
+                                <h4>RESULT</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        The carve-out was successfully executed with the carved-out
+                                        company sold
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-cell">
+                            <div class="content-block">
+                                <h4>APPROACH</h4>
+                                <ul class="bullet-list">
+                                    <li>
+                                        Description of the company’s activity segments, capabilities
+                                        and assets
+                                    </li>
+                                    <li>
+                                        Analyses to define the exit strategy options including
+                                        potential investors and buyers
+                                    </li>
+                                    <li>
+                                        Identification of shared capabilities and assets, together
+                                        with and assessment of the level and nature of entanglement
+                                    </li>
+                                    <li>Allocation of shared capabilities and assets</li>
+                                    <li>
+                                        Evaluation of solutions for carved-out business to ensure
+                                        continued operations
+                                    </li>
+                                    <li>
+                                        Calculation of de-synergies – impacts on the business, P&L,
+                                        and balance sheet
+                                    </li>
+                                    <li>
+                                        Calculation of separation costs both on-going and one-off
+                                    </li>
+                                    <li>
+                                        Identification and calculation of growth areas for the
+                                        carved-out company to build a compelling investment story
+                                    </li>
+                                    <li>Development of an implementation plan</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-block client-feedback">
+                            <h4>CLIENT FEEDBACK</h4>
+                            <p>
+                                <i
+                                    >“Your structured approach and analyses helped us to decide and
+                                    execute the carve-out and deliver the exit strategy
+                                    successfully”</i
+                                >
+                            </p>
+                            <p class="feedback-author">VP Medical products - UK</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>Copyright © Alpha Mater 2023</footer>
+    </body>
 </html>
