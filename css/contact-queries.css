@@ -1,20 +1,21 @@
+/* 950px */
+@media (max-width: 59em) {
+    .contact-component {
+        background-image: url(../img/contact/main_background_m.jpg);
+        background-size: cover;
+        background-position: bottom right;
+        width: 100%;
+    }
+}
+
 /* 670px */
 @media (max-width: 41.8em) {
     h3 {
         font-size: 3.8rem;
     }
 
-    .contact-component {
-        background-position: left;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-    }
-
     .contact-box {
-        padding: 19% 5% 19% 10%;
+        padding: 9% 5% 19% 10%;
     }
 
     .address-box::before {

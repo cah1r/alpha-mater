@@ -19,16 +19,21 @@ h4 {
     word-spacing: 0.4rem;
 }
 
-p {
-    font-size: 2.1rem;
+.consulting-group-member-content p {
+    font-size: 2rem;
     line-height: 1.6;
+}
+
+.header a {
+    line-height: 1.6;
+    font-size: 2rem;
 }
 
 .consulting-groups-section {
     display: grid;
     grid-template-columns: repeat(3, 38rem);
     gap: 4.8rem;
-    padding: 6.4rem 2.4rem;
+    padding: 4.8rem 2.4rem 6.4rem 2.4rem;
     justify-content: center;
     background-image: url(../img/capabilities/main_background.jpg);
     background-size: cover;
@@ -36,6 +41,8 @@ p {
     box-shadow: 0 3rem 5rem #444444b3;
     line-height: 1.8;
 }
+
+/* BLURED BACKGROUND */
 /*
 .consulting-groups-section::before {
   content: "";
@@ -70,7 +77,7 @@ p {
 
 .consulting-group-box ul {
     list-style: none;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -87,8 +94,21 @@ p {
 }
 
 .consulting-group-member-content {
-    padding: 3.6rem 32rem 3.6rem 9.6rem;
-    max-width: 106rem;
+    width: 80%;
+    padding: 6.4rem 12.8rem 6.4rem 6.4rem;
+    min-height: 86rem;
+}
+
+.text-container--65 {
+    width: 65%;
+}
+
+.text-container--60 {
+    width: 60%;
+}
+
+.text-container--55 {
+    width: 55%;
 }
 
 .consulting-group-member-content p {
@@ -104,7 +124,7 @@ p {
 }
 
 .content-list {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-left: 3.6rem;
     margin-top: 0.6rem;
 }
@@ -115,7 +135,7 @@ p {
 }
 
 .strategy-content {
-    background: linear-gradient(to right, #071726 77%, #07172600);
+    background: linear-gradient(to right, #071726 70%, #07172600);
 }
 
 .predeal-img-box {
@@ -124,16 +144,15 @@ p {
 }
 
 .predeal-content {
-    background: linear-gradient(to right, #858688 70%, #85868800);
+    background: linear-gradient(to right, #858688 65%, #85868800);
 }
 
 .postdeal-img-box {
     background-image: url(../img/capabilities/postdeal.jpg);
-    background-position: 20%;
 }
 
 .postdeal-content {
-    background: linear-gradient(to right, #bac6e1 70%, #bac6e100);
+    background: linear-gradient(to right, #bac6e1 65%, #bac6e100);
 }
 
 .transformation-img-box {
@@ -142,25 +161,24 @@ p {
 }
 
 .transformation-content {
-    background: linear-gradient(to right, #000 70%, #00000000);
+    background: linear-gradient(to right, #000 65%, #00000000);
 }
 
 .sales-img-box {
     background-image: url(../img/capabilities/sales.jpg);
-    background-position: top;
+    background-position: bottom right 90%;
 }
 
 .sales-content {
-    background: linear-gradient(to right, #ff7c06 70%, #ff7c0600);
+    background: linear-gradient(to right, #ff7c06 55%, #ff7c0600);
 }
 
 .marketing-img-box {
     background-image: url(../img/capabilities/marketing.jpg);
-    background-position: 35%;
 }
 
 .marketing-content {
-    background: linear-gradient(to right, #53534b 70%, #53534b00);
+    background: linear-gradient(to right, #53534b 65%, #53534b00);
 }
 
 footer {

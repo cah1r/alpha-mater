@@ -61,12 +61,6 @@ html {
     font-size: 62.5%;
 }
 
-p,
-a {
-    font-size: 2.2rem;
-    line-height: 1.6;
-}
-
 a {
     font-weight: 600;
 }
@@ -79,7 +73,7 @@ p {
 .hero {
     display: grid;
     height: calc(100vh - 180px);
-    min-height: 55rem;
+    min-height: 60rem;
     background-image: url(../img/index/hero.jpg);
     background-size: cover;
     background-position: left 25%;
@@ -87,27 +81,29 @@ p {
 
 h1 {
     font-family: "Merriweather", serif;
-    font-size: 5.4rem;
+    font-size: 4.6rem;
     font-weight: 400;
     line-height: 2;
 }
 
-h2 {
-    font-family: "Copperplate Gothic Light", sans-serif;
-    font-size: 3.6rem;
+h2,
+h3 {
+    font-family: "Copperplate Gothic Light", serif;
     letter-spacing: 0.3rem;
+    font-size: 3.6rem;
+}
+
+h2 {
     font-weight: 300;
 }
 
 h3 {
-    font-family: "Copperplate", serif;
-    font-size: 4rem;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1;
 }
 
 h4 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 500;
     text-align: right;
 }
@@ -119,11 +115,13 @@ h4 {
 
 .hero-container {
     display: grid;
+    align-items: end;
 }
 
 .quotes {
     justify-self: end;
     margin-right: 11%;
+    margin-bottom: 3%;
 }
 
 .see-more-component {
@@ -170,7 +168,7 @@ h4 {
 
 .main-bar p {
     color: #f8f9fa;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-weight: 300;
     margin-right: 20%;
 }
@@ -186,13 +184,8 @@ h4 {
     border-left: #f8f9fa solid 1px;
 }
 
-.ste-content h3,
-.specialise h3 {
-    font-weight: 500;
-}
-
 .ste-content h3 {
-    margin-bottom: 1.6rem;
+    margin: 1.5% 0;
 }
 
 .specialise h3 {
@@ -212,7 +205,6 @@ h4 {
     padding-left: 2.4rem;
     display: flex;
     flex-flow: column;
-    gap: 24px;
     max-width: 50%;
 }
 
@@ -226,7 +218,7 @@ h4 {
 }
 
 .ste-content-element {
-    margin-bottom: 44px;
+    margin-bottom: 7%;
 }
 
 .ste-content-element .divider {
@@ -253,10 +245,6 @@ h4 {
 
 /* ========================================== */
 /* 3rd view */
-
-.specialise {
-    height: 100vh;
-}
 
 .specialise-bar {
     display: flex;
@@ -290,17 +278,17 @@ h4 {
 
 .func-exp-img {
     background-image: url(../img/index/func-exp.jpg);
+    background-position: center;
 }
 
 .sector-exp-img {
     background-image: url(../img/index/sector-exp.jpg);
-    background-position: bottom;
+    background-position: bottom right;
 }
 
 .specialise-img-config {
     background-size: cover;
-    height: calc(50vh - 6rem);
-    /* min-height: 40rem; */
+    min-height: 38em;
 }
 
 .expertise-content {

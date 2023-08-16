@@ -18,19 +18,19 @@ h3 {
 }
 
 h3 {
-    font-size: 4.8rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 
 p {
     font-weight: 500;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     line-height: 1.6;
 }
 
 a {
     text-decoration: none;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 500;
     line-height: 1.6;
     color: #343a40;
@@ -40,6 +40,11 @@ a {
     height: 12rem;
 }
 
+.header a {
+    line-height: 1.6;
+    font-size: 2rem;
+}
+
 .projects-title {
     opacity: 0;
     transform: translateY(100%);
@@ -47,11 +52,11 @@ a {
 }
 
 .contact-component {
-    margin-top: 4.8rem;
     background-image: url(../img/contact/main_background.jpg);
     background-size: cover;
-    background-position: center right;
-    box-shadow: 0 0 50px rgba(44, 44, 44, 0.15);
+    background-position: top right;
+    height: calc(100vh - 3.6rem - 12rem);
+    min-height: 65rem;
 }
 
 .contact-box {

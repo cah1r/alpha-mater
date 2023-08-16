@@ -14,6 +14,7 @@ html {
 h3 {
     font-family: "Copperplate Gothic Light", serif;
     font-size: 3.6rem;
+    letter-spacing: 0.2rem;
     font-weight: 400;
     line-height: 1;
     margin-bottom: 0.8rem;
@@ -29,8 +30,8 @@ p,
 a,
 li {
     font-weight: 400;
-    font-size: 2.2rem;
-    line-height: 1.7;
+    font-size: 2rem;
+    line-height: 1.6;
 }
 
 main li {
@@ -43,7 +44,7 @@ a {
 
 p {
     color: #212529;
-    margin-top: 3.2rem;
+    margin-top: 2.4rem;
 }
 
 /* ******************************************* */
@@ -105,17 +106,20 @@ p {
 /* ******************************************* */
 
 .consultants-section {
+    background-color: #eee;
+}
+
+.consultants-container {
     display: grid;
     margin: 12.8rem auto 18.6rem auto;
     max-width: 140rem;
     grid-template-columns: 1fr 1fr;
-    box-shadow: 0 10px 7px rgba(44, 44, 44, 0.3);
     padding: 6.4rem 0;
 }
 
 .consultants-img-box {
     background-image: url(../img/about-us/team.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     margin: 3.6rem;
 }
@@ -137,36 +141,35 @@ p {
 .values-box {
     border: #aaa solid 2px;
     padding: 9.6rem 6.4rem;
-    background: radial-gradient(circle, #fff 20%, #ddd);
-    box-shadow: 0 7px 5px rgba(100, 100, 100, 0.4);
-}
-
-.values-box--test {
     background: #eee;
 }
 
 .values-box h3 {
     display: inline-block;
     position: relative;
-    color: #b20000;
     margin-left: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.6rem;
+}
+
+.values-box .bullet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .values-box li {
-    line-height: 4.8rem;
-    margin-left: 4.8rem;
+    padding-left: 2.4rem;
 }
 
 .values-box li::before {
-    line-height: 4.8rem;
+    margin-left: 0.6rem;
 }
 
 .values-box h3::after {
     position: absolute;
     content: "";
     left: 0;
-    bottom: -0.2rem;
+    bottom: -1rem;
     width: 100%;
     border-bottom: 1px solid #21252942;
 }
