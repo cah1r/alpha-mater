@@ -11,25 +11,9 @@ html {
     font-size: 62.5%;
 }
 
-h4 {
-    font-family: "Copperplate Gothic Light", sans-serif;
-    font-size: 3.6rem;
-    font-weight: 500;
-    letter-spacing: -0.25rem;
-}
-
-p,
-a {
-    font-size: 2rem;
-}
-
-.header a {
-    line-height: 1.6;
-    font-size: 2rem;
-}
-
 .group-section {
     background: linear-gradient(#fff, 80%, #858688);
+    min-height: calc(100vh - 24rem - 3.5rem);
 }
 
 .container {
@@ -37,7 +21,7 @@ a {
     grid-auto-flow: column;
     grid-template-columns: repeat(6, 1fr);
     gap: 0.1rem;
-    padding: 2.4rem 0 6.4rem 0;
+    padding: 2% 0 2% 0;
     justify-content: center;
 }
 
@@ -103,70 +87,32 @@ a {
     opacity: 1;
 }
 
-.case-study-bar {
-    color: #eee;
-    padding: 2.4rem;
+.container--mobile {
+    display: grid;
+    gap: 4.8rem;
+    justify-content: center;
+    padding: 4.8rem 1.2rem 6.4rem 1.2rem;
 }
 
-.case-study-bar-box,
-.case-study-title-bar,
-.case-study-content {
-    max-width: 120rem;
-    margin: 0 auto;
+.case-study-group-box:link,
+.case-study-group-box:visited {
+    text-decoration: none;
+    text-align: center;
+    padding: 3.6rem 2rem;
+    background-color: #0a2647;
+    color: #ddd;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem #00000058;
+    transition: all 0.2s ease-in-out;
 }
 
-.case-study-title-bar {
-    display: flex;
-    position: relative;
-    align-items: center;
-    gap: 3.6rem;
+.case-study-group-box:hover,
+.case-study-group-box:active {
+    box-shadow: 0 0.5rem 5rem #000000a7;
 }
 
-.case-study-title h4 {
-    letter-spacing: 0.3px;
-    margin-bottom: 1.6rem;
-}
-
-.case-study-title p:last-child {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-}
-
-.case-study-content ul {
-    font-size: 2rem;
-    margin-bottom: 3.6rem;
-    margin-left: 2.2rem;
-}
-
-.case-study-content p {
-    margin-top: 1.6rem;
-    margin-bottom: 2.4rem;
-}
-
-.challenge-box {
-    border-bottom: 1px solid #343a40;
-    border-top: 1px solid #343a40;
-    margin: 2.4rem 0;
-}
-
-.gradient-container {
-    background: linear-gradient(#fff 40%, #343a4070);
-}
-
-.case-study-section img {
-    max-height: 20rem;
-}
-
-.pre-deal-bar {
-    background-color: #858688;
-}
-
-.strategy-bar {
-    background-color: #0c1623;
-}
-
-.post-deal-bar {
-    background-color: #bbc6e0;
-    color: #343a40;
+.case-study-group-list {
+    margin-top: 2.6rem;
+    line-height: 2;
+    font-size: 2.2rem;
 }

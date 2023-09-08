@@ -11,3 +11,19 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* 816px */
+@media (max-width: 51em) {
+    .section-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .section-bar-title {
+        text-align: center;
+        margin: 0;
+    }
+
+    .section-bar-subtitle {
+        display: none;
+    }
+}

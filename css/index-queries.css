@@ -1,37 +1,41 @@
-/* 1540px */
-@media (max-width: 96.2em) {
-    h3 {
-        font-size: 3.8rem;
-    }
-
-    h4 {
-        font-size: 2.2rem;
-    }
-
-    p,
-    a {
-        font-size: 2rem;
-    }
-}
-
 /* 1400px */
 @media (max-width: 87.5em) {
     .quotes {
         margin-right: 4%;
+        margin-bottom: 3vw;
     }
 
     .see-more:link,
     .see-more:visited {
         font-size: 2.8rem;
     }
+
+    .ste-img-box {
+        max-width: 40%;
+    }
+
+    .ste-img {
+        transform: scale(0.8);
+    }
+
+    .ste-content {
+        max-width: 60%;
+    }
+}
+
+/* 1280px */
+@media (max-width: 80em) {
+    .specialise-img-config {
+        height: 100%;
+    }
+
+    .expertise-container {
+        margin: 2.4rem;
+    }
 }
 
 /* 1135px */
-@media (max-width: 71em) {
-    html {
-        font-size: 55%;
-    }
-
+@media (max-width: 60em) {
     .main-nav-link:link,
     .main-nav-link:visited {
         font-size: 2.6rem;
@@ -54,18 +58,8 @@
     .support-to-executives {
         flex-direction: column;
         justify-content: center;
-        margin: 3.2rem 0;
+        /* margin: 3.2rem 0; */
         height: auto;
-    }
-
-    /* .support-to-executives h3 {
-        font-size: 5.2rem;
-        line-height: 1;
-        margin-bottom: 2rem;
-    } */
-
-    .support-to-executives p {
-        font-size: 2.4rem;
     }
 
     .ste-content {
@@ -77,14 +71,9 @@
         display: none;
     }
 
-    /* .specialise h3 {
-        font-size: 5.2rem;
-    } */
-
     .specialise-bar {
         text-align: left;
         padding: 0 2.4rem;
-        margin-top: 4.8rem;
     }
 
     .specialise-title {
@@ -104,12 +93,13 @@
         margin: 3.6rem 4.8rem;
     }
 
+    .ste-content p,
     .expertise-container p {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 
     .expertise-container h4 {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     .func-exp-img {
@@ -119,11 +109,10 @@
 
     .sector-exp-img {
         grid-row: 3;
-        background-position: center;
     }
 
     .specialise-img-config {
-        min-height: 60rem;
+        min-height: 55vw;
     }
 
     .functional-mobile {
@@ -143,21 +132,14 @@
         justify-self: start;
         align-self: self-end;
         width: 100%;
-        padding: 0 4.8rem 0.6rem 4.8rem;
-    }
-
-    .btn-arrd {
-        display: none;
+        padding: 0 4.8rem 1rem 4.8rem;
+        margin-right: 0;
+        margin-bottom: 0;
     }
 }
 
 /* 752px */
 @media (max-width: 47em) {
-    h2 {
-        font-size: 3.6rem;
-        line-height: 1.5;
-    }
-
     .expertise-content h4 {
         font-size: 2.6rem;
     }
@@ -173,12 +155,7 @@
     }
 
     .specialise h3 {
-        font-size: 5.2rem;
-        line-height: 1.2;
-    }
-
-    .specialise-title h2 {
-        font-size: 3.8rem;
+        line-height: 1;
     }
 
     .support-to-executives {
@@ -207,7 +184,8 @@
 
 /* 630px */
 @media (max-width: 39.4em) {
-    .see-more-component {
+    .see-more-component,
+    .btn-arrd {
         display: none;
     }
 }
@@ -220,13 +198,13 @@
 
     .quotes {
         flex-flow: column;
-        padding: 0 5%;
+        padding: 3vw 5vw;
     }
 
     .quotes h1 {
         text-align: right;
-        font-size: 4.2rem;
-        line-height: 1.8;
+        font-size: 4rem;
+        line-height: 1.6;
     }
 
     .main-bar-content {
@@ -235,7 +213,7 @@
 
     .main-bar-title {
         padding: 0 2rem;
-        line-height: 6rem;
+        line-height: 5rem;
     }
 
     .ste-content {
@@ -257,12 +235,13 @@
         margin: 2.4rem;
     }
 
-    .specialise-img-config {
-        min-height: 30rem;
-    }
-
     .expertise-content {
         gap: 2rem;
+    }
+
+    .expertise-content h4::after {
+        top: 0;
+        bottom: 0;
     }
 
     .expertise-content h4:first-of-type::after {

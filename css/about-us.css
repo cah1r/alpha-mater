@@ -50,6 +50,7 @@ p {
 /* ******************************************* */
 
 .start-journey-section {
+    position: relative;
     background-image: url(../img/about-us/main_background.jpg);
     background-size: cover;
     background-position: right;
@@ -58,7 +59,6 @@ p {
 }
 
 .start-journey-section h3 {
-    text-transform: uppercase;
     letter-spacing: 0.2rem;
     word-spacing: 0.5rem;
     line-height: 1.3;
@@ -66,7 +66,7 @@ p {
 
 .start-journey-content {
     display: block;
-    color: #fff;
+    color: #eee;
     max-width: 78rem;
     padding: 4.8rem;
     background-color: rgba(10, 38, 71, 0.4);
@@ -75,15 +75,41 @@ p {
 
 .start-journey-content p,
 .start-journey-content li {
-    color: #fff;
+    color: #eee;
     font-weight: 300;
+}
+
+.locations {
+    position: absolute;
+    right: 2%;
+    bottom: 21.5%;
+}
+
+.locations p {
+    color: #ccc;
+    font-weight: 300;
+}
+
+.locations-text {
+    position: relative;
+    font-size: 1.8rem;
+}
+
+.locations-text::before {
+    position: absolute;
+    top: -1.5rem;
+    left: -2rem;
+    content: "\2022";
+    color: red;
+    font-size: 3.8rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ******************************************* */
 
 .eric-section {
     display: grid;
-    margin: 16.4rem auto;
+    margin: 16.4rem auto 12.8rem auto;
     gap: 8.6em;
     max-width: 130rem;
     grid-template-columns: 0.4fr 1.6fr;
@@ -111,7 +137,7 @@ p {
 
 .consultants-container {
     display: grid;
-    margin: 12.8rem auto 18.6rem auto;
+    margin: 6.4rem auto;
     max-width: 140rem;
     grid-template-columns: 1fr 1fr;
     padding: 6.4rem 0;
@@ -121,6 +147,7 @@ p {
     background-image: url(../img/about-us/team.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    width: 60rem;
     margin: 3.6rem;
 }
 
@@ -134,27 +161,32 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6.4rem;
-    margin: 18.6rem auto 12.8rem auto;
+    margin: 12.8rem auto;
     max-width: 140rem;
 }
 
 .values-box {
+    display: flex;
+    flex-direction: column;
     border: #aaa solid 2px;
     padding: 9.6rem 6.4rem;
     background: #eee;
 }
 
-.values-box h3 {
-    display: inline-block;
-    position: relative;
+.values-box h3,
+.values-box .divider {
     margin-left: 3rem;
-    margin-bottom: 2.6rem;
+}
+
+.values-box .divider {
+    margin-top: 1.8rem;
 }
 
 .values-box .bullet-list {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-top: 2.6rem;
 }
 
 .values-box li {
@@ -163,13 +195,4 @@ p {
 
 .values-box li::before {
     margin-left: 0.6rem;
-}
-
-.values-box h3::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: -1rem;
-    width: 100%;
-    border-bottom: 1px solid #21252942;
 }

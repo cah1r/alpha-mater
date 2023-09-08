@@ -15,37 +15,6 @@ dark gray: #212529
 */
 
 /* ========================================== */
-/* mobile menu */
-
-.mobile-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style: none;
-    color: #f8f9fa;
-    background-color: #0a2647;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: calc(100vh - 180px);
-    width: 0;
-    transition: all 0.3s ease-out;
-    white-space: nowrap;
-    text-align: center;
-    overflow: hidden;
-}
-
-.mobile-nav .main-nav-link {
-    color: #f8f9fa;
-}
-
-.mobile-nav.open {
-    height: calc(100vh - 180px);
-    box-shadow: none;
-    width: 30rem;
-}
-
-/* ========================================== */
 /* 1st view */
 
 * {
@@ -91,26 +60,13 @@ h3 {
     font-family: "Copperplate Gothic Light", serif;
     letter-spacing: 0.3rem;
     font-size: 3.6rem;
-}
-
-h2 {
-    font-weight: 300;
-}
-
-h3 {
-    font-weight: 600;
-    line-height: 1;
+    font-weight: 400;
 }
 
 h4 {
     font-size: 2.2rem;
     font-weight: 500;
     text-align: right;
-}
-
-.header {
-    padding: 0 6.4rem;
-    height: 12rem;
 }
 
 .hero-container {
@@ -120,8 +76,8 @@ h4 {
 
 .quotes {
     justify-self: end;
-    margin-right: 11%;
-    margin-bottom: 3%;
+    margin-right: 10vw;
+    margin-bottom: 9vh;
 }
 
 .see-more-component {
@@ -162,10 +118,6 @@ h4 {
     color: #f8f9fa;
 }
 
-.main-bar h3 {
-    margin-bottom: 2rem;
-}
-
 .main-bar p {
     color: #f8f9fa;
     font-size: 2.4rem;
@@ -188,15 +140,11 @@ h4 {
     margin: 1.5% 0;
 }
 
-.specialise h3 {
-    line-height: 1.8;
-}
-
 .support-to-executives {
     position: relative;
     display: flex;
-    height: calc(100vh - 180px);
-    min-height: 69rem;
+    height: calc(100vh - 18rem);
+    min-height: 62rem;
     align-items: center;
 }
 
@@ -231,7 +179,7 @@ h4 {
     height: 32px;
     width: 32px;
     left: 50%;
-    bottom: 2%;
+    bottom: 5%;
     transform: translate(-50% -50%);
     transition: all 0.3 ease-in-out;
 }
@@ -273,6 +221,7 @@ h4 {
 }
 
 .expertise-container-title {
+    padding-bottom: 1.2rem;
     border-bottom: #aaa solid 1px;
 }
 
@@ -283,12 +232,12 @@ h4 {
 
 .sector-exp-img {
     background-image: url(../img/index/sector-exp.jpg);
-    background-position: bottom right;
+    background-position: bottom 30% right;
 }
 
 .specialise-img-config {
     background-size: cover;
-    min-height: 38em;
+    min-height: 28vw;
 }
 
 .expertise-content {
@@ -311,8 +260,8 @@ h4 {
     content: "";
     position: absolute;
     right: 0;
-    top: 0;
-    bottom: 0;
+    top: -1rem;
+    bottom: -1rem;
     border-right: #aaa solid 1px;
 }
 

@@ -31,6 +31,51 @@
     .start-journey-section {
         padding: 6.4rem 4.8rem;
     }
+
+    .consultants-container {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        gap: 4.8rem;
+        max-width: 100rem;
+    }
+
+    .consultants-img-box {
+        min-height: 33vh;
+        width: auto;
+        margin: 0 5%;
+        background-size: cover;
+    }
+
+    .consultants-content {
+        margin: 0 auto;
+        padding: 0 5%;
+    }
+
+    .eric-section {
+        max-width: 100rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30rem 1fr;
+        padding: 0 5%rem;
+        margin: 8.6rem auto;
+    }
+
+    .eric-img-box img {
+        width: 30rem;
+    }
+
+    .start-journey-section {
+        background-position: left;
+    }
+
+    .locations {
+        display: none;
+    }
+
+    .values {
+        padding: 0 3.6rem;
+        gap: 3.6rem;
+        margin: 8.6rem auto;
+    }
 }
 
 /* 1010px */
@@ -43,26 +88,6 @@
 
 /* 950px */
 @media (max-width: 59em) {
-    .eric-section {
-        margin: 8.6rem 0 6.4rem 0;
-    }
-
-    .consultants-container {
-        grid-template-columns: 1fr;
-        max-width: 75rem;
-        margin: 0 auto;
-        gap: 4.8rem;
-    }
-
-    .consultants-img-box {
-        min-height: 40rem;
-        margin: 0;
-    }
-
-    .consultants-content {
-        margin: 0 1.2rem;
-    }
-
     .values {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -95,21 +120,15 @@
     }
 
     .consultants-img-box {
-        background-size: cover;
-        min-height: 28rem;
-        margin: 0 1rem;
-    }
-
-    .start-journey-section {
-        padding: 4.8rem 1.2rem;
+        min-height: 65vw;
     }
 
     .start-journey-content {
-        padding: 6.4rem 3.2rem;
+        padding: 6.4rem 2.2rem;
     }
 
     .eric-section {
-        margin: 6.4rem 2.4rem;
+        margin: 3.2rem 2.4rem;
         padding: 0;
     }
 
@@ -122,7 +141,7 @@
     }
 
     .values {
-        padding: 6.4rem 0;
+        padding: 2.4rem 0 6.4rem 0;
         margin: 0 1.2rem;
     }
 
@@ -130,5 +149,10 @@
         max-width: 50rem;
         width: 100%;
         padding: 4.8rem 3.6rem 4.8rem 0;
+    }
+
+    .start-journey-section {
+        padding: 6.4rem 1rem;
+        background-position: 40%;
     }
 }

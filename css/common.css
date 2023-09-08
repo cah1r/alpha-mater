@@ -1,3 +1,19 @@
+h2,
+h3 {
+    font-family: "Copperplate Gothic Light", serif;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
 p,
 a {
     font-size: 2rem;
@@ -44,6 +60,7 @@ a {
     left: 4.8rem;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
+    z-index: 999;
 }
 
 .logo-link:hover,
@@ -132,7 +149,7 @@ ul {
     color: #0a2647;
     position: absolute;
     width: 100%;
-    top: 12rem;
+    top: 0rem;
     left: 0;
     height: 0;
     transition: height 0.3s ease-out;
@@ -142,8 +159,12 @@ ul {
     z-index: 666;
 }
 
+.mobile-menu-list {
+    margin-top: 12rem;
+}
+
 .mobile-nav.open {
-    height: 45rem;
+    height: 55rem;
     box-shadow: 0 4rem 5rem rgba(57, 57, 57, 0.2);
     z-index: 666;
 }
@@ -162,6 +183,7 @@ ul {
     cursor: pointer;
     width: 3rem;
     height: 3rem;
+    z-index: 999;
     /* position: relative; */
 }
 

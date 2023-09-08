@@ -11,11 +11,6 @@ html {
     font-size: 62.5%;
 }
 
-.header a {
-    line-height: 1.6;
-    font-size: 2rem;
-}
-
 .left-component {
     grid-template-columns: 62.5% 37.5%;
     box-shadow: 2rem 0 8rem -2rem rgba(44, 44, 44, 0.2);
@@ -40,13 +35,6 @@ html {
 .industry-content {
     margin-left: 4.8rem;
     align-self: center;
-}
-
-.industry-content h3 {
-    font-family: "Copperplate Gothic Light", serif;
-    letter-spacing: 0.2rem;
-    font-size: 4rem;
-    word-spacing: -0.1rem;
 }
 
 .industries-section li {
