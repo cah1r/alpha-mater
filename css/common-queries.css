@@ -3,6 +3,10 @@
     .main-nav {
         gap: 2.4rem;
     }
+
+    #back-to-top {
+        display: none;
+    }
 }
 
 /* 950px */

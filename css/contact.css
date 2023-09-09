@@ -26,7 +26,7 @@ a {
     background-image: url(../img/contact/main_background.jpg);
     background-size: cover;
     background-position: top right;
-    height: calc(100vh - 12rem - 3.5rem);
+    height: calc(100vh - 12rem - 3.55rem);
     min-height: 75rem;
 }
 

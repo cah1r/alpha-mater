@@ -4,7 +4,7 @@
 
 .section-bar {
     display: grid;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 0.65fr 1fr;
     align-items: center;
     height: 12rem;
     background-color: #0a2647;

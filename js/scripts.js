@@ -1,13 +1,3 @@
-// var slideFromBottomComponents =
-//   ".section-bar-title, .main-bar-content, .main-bar-title, .section-bar-subtitle, .projects-title";
-
-// window.onload = function () {
-//   var elements = document.querySelectorAll(slideFromBottomComponents);
-//   elements.forEach(function (element) {
-//     element.classList.add("slide-from-bottom");
-//   });
-// };
-
 // Back to top script
 window.onscroll = function () {
     scrollFunction();
@@ -38,6 +28,17 @@ var mobileNav = document.getElementById("mobile-nav");
 menuIcon.addEventListener("click", function () {
     menuIcon.classList.toggle("close");
     mobileNav.classList.toggle("open");
+});
+
+function setFullHeight() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+}
+
+setFullHeight();
+
+window.addEventListener("resize", () => {
+    setFullHeight();
 });
 
 ////////////////////////////////////////////////////////////////

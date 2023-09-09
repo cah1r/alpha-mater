@@ -96,7 +96,7 @@ html {
 
 .content-main-list {
     list-style: none;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     font-weight: 500;
     margin-top: 2.6rem;
     margin-bottom: 1rem;
@@ -127,7 +127,8 @@ html {
 }
 
 .predeal-img-box {
-    background-position: 65%;
+    background-position-x: 97%;
+    background-position-y: 20%;
 }
 
 .predeal-text-background {

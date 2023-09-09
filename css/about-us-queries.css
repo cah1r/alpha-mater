@@ -2,7 +2,7 @@
 @media (max-width: 93em) {
     .start-journey-content {
         max-width: 72rem;
-        background-color: #0a2847d9;
+        /* background-color: #0a2847d9; */
     }
 
     .values {
@@ -23,6 +23,18 @@
 
     .start-journey-section {
         margin-top: 0;
+    }
+}
+
+/* 1250px */
+@media (max-width: 78em) {
+    .start-journey-section {
+        background-position: left;
+        background-size: auto;
+    }
+
+    .locations {
+        display: none;
     }
 }
 
@@ -57,18 +69,11 @@
         grid-template-rows: 30rem 1fr;
         padding: 0 5%rem;
         margin: 8.6rem auto;
+        gap: 2rem;
     }
 
     .eric-img-box img {
-        width: 30rem;
-    }
-
-    .start-journey-section {
-        background-position: left;
-    }
-
-    .locations {
-        display: none;
+        width: 23rem;
     }
 
     .values {
@@ -106,10 +111,6 @@
     .eric-section {
         grid-template-columns: 1fr;
         grid-template-rows: 30rem 1fr;
-    }
-
-    .eric-img-box img {
-        width: 30rem;
     }
 }
 

@@ -14,10 +14,6 @@
 
 /* 670px */
 @media (max-width: 41.8em) {
-    .industry-component h3 {
-        font-size: 4.2rem;
-    }
-
     .industry-component li {
         font-size: 2.2rem;
     }

@@ -2,12 +2,12 @@
 @media (max-width: 87.5em) {
     .quotes {
         margin-right: 4%;
-        margin-bottom: 3vw;
+        margin-bottom: 8vw;
+        align-self: flex-end;
     }
 
-    .see-more:link,
-    .see-more:visited {
-        font-size: 2.8rem;
+    .see-more-component {
+        bottom: -6rem;
     }
 
     .ste-img-box {
@@ -21,10 +21,18 @@
     .ste-content {
         max-width: 60%;
     }
+
+    .hero-container {
+        height: auto;
+    }
 }
 
 /* 1280px */
 @media (max-width: 80em) {
+    .quotes h1 {
+        font-size: 4rem;
+    }
+
     .specialise-img-config {
         height: 100%;
     }
@@ -32,9 +40,13 @@
     .expertise-container {
         margin: 2.4rem;
     }
+
+    .btn-arrd {
+        display: none;
+    }
 }
 
-/* 1135px */
+/* 960px */
 @media (max-width: 60em) {
     .main-nav-link:link,
     .main-nav-link:visited {
@@ -58,7 +70,6 @@
     .support-to-executives {
         flex-direction: column;
         justify-content: center;
-        /* margin: 3.2rem 0; */
         height: auto;
     }
 
@@ -136,6 +147,11 @@
         margin-right: 0;
         margin-bottom: 0;
     }
+
+    .see-more-component {
+        bottom: 1rem;
+        right: 4.8rem;
+    }
 }
 
 /* 752px */
@@ -184,8 +200,7 @@
 
 /* 630px */
 @media (max-width: 39.4em) {
-    .see-more-component,
-    .btn-arrd {
+    .see-more-component {
         display: none;
     }
 }
@@ -203,7 +218,6 @@
 
     .quotes h1 {
         text-align: right;
-        font-size: 4rem;
         line-height: 1.6;
     }
 

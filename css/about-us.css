@@ -12,10 +12,7 @@ html {
 }
 
 h3 {
-    font-family: "Copperplate Gothic Light", serif;
-    font-size: 3.6rem;
     letter-spacing: 0.2rem;
-    font-weight: 400;
     line-height: 1;
     margin-bottom: 0.8rem;
 }
@@ -55,7 +52,8 @@ p {
     background-size: cover;
     background-position: right;
     margin-top: 3.6rem;
-    padding: 14.6rem 4.8rem;
+    padding: 9.6rem 4.8rem;
+    min-height: 65rem;
 }
 
 .start-journey-section h3 {
@@ -186,7 +184,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin-top: 2.6rem;
+    margin-top: 3.6rem;
 }
 
 .values-box li {

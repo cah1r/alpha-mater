@@ -41,8 +41,8 @@ p {
 
 .hero {
     display: grid;
-    height: calc(100vh - 180px);
-    min-height: 60rem;
+    height: calc((var(--vh, 1vh) * 100) - 180px);
+    min-height: 45rem;
     background-image: url(../img/index/hero.jpg);
     background-size: cover;
     background-position: left 25%;
@@ -55,14 +55,6 @@ h1 {
     line-height: 2;
 }
 
-h2,
-h3 {
-    font-family: "Copperplate Gothic Light", serif;
-    letter-spacing: 0.3rem;
-    font-size: 3.6rem;
-    font-weight: 400;
-}
-
 h4 {
     font-size: 2.2rem;
     font-weight: 500;
@@ -72,18 +64,22 @@ h4 {
 .hero-container {
     display: grid;
     align-items: end;
+    height: fit-content;
 }
 
 .quotes {
+    position: relative;
     justify-self: end;
     margin-right: 10vw;
-    margin-bottom: 9vh;
+    align-self: center;
 }
 
 .see-more-component {
+    position: absolute;
     display: flex;
-    margin-top: 4.4rem;
     justify-content: end;
+    right: 0;
+    bottom: -7rem;
 }
 
 .see-more:link,
@@ -92,7 +88,7 @@ h4 {
     gap: 0.6rem;
     align-items: center;
     color: #144272;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     width: fit-content;
@@ -245,7 +241,7 @@ h4 {
     grid-template-columns: 40% 60%;
     column-gap: 2.4rem;
     align-items: center;
-    padding-top: 1.6rem;
+    padding-top: 2.4rem;
 }
 
 .expertise-content h4 {
