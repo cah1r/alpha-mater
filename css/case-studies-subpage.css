@@ -17,13 +17,13 @@ h3 {
 }
 
 h4 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     letter-spacing: 1.2px;
     margin-bottom: 0.8rem;
 }
 
 i {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .header a {
@@ -33,7 +33,7 @@ i {
 
 .subsection-content li {
     margin-left: 2.4rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .page-main-content {
@@ -78,7 +78,7 @@ i {
 }
 
 .feedback-author {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 

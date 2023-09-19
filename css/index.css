@@ -42,7 +42,7 @@ p {
 .hero {
     display: grid;
     height: calc((var(--vh, 1vh) * 100) - 180px);
-    min-height: 45rem;
+    min-height: 35rem;
     background-image: url(../img/index/hero.jpg);
     background-size: cover;
     background-position: left 25%;
@@ -56,7 +56,7 @@ h1 {
 }
 
 h4 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 500;
     text-align: right;
 }
@@ -97,13 +97,6 @@ h4 {
 .see-more:hover,
 .see-more:active {
     transform: scale(0.9);
-}
-
-.see-more-icon {
-    height: 28px;
-    width: 28px;
-    stroke-width: 1.5px;
-    justify-self: center;
 }
 
 .main-bar {
@@ -239,15 +232,19 @@ h4 {
 .expertise-content {
     display: grid;
     grid-template-columns: 40% 60%;
-    column-gap: 2.4rem;
+    column-gap: 1.6rem;
     align-items: center;
-    padding-top: 2.4rem;
+    padding-top: 3.2rem;
+}
+
+.expertise-content p {
+    font-size: 1.8rem;
 }
 
 .expertise-content h4 {
     text-align: right;
     position: relative;
-    padding-right: 2.4rem;
+    padding-right: 1.6rem;
     font-weight: 600;
     line-height: 1.7;
 }
