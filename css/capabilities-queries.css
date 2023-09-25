@@ -1,3 +1,10 @@
+@media (max-width: 85em) {
+   .sales-img-box {
+      background-size: 120%;
+      background-repeat: no-repeat;
+   }
+}
+
 /* 1248px */
 @media (max-width: 78em) {
    .consulting-groups-section {

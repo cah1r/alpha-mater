@@ -1,228 +1,211 @@
 h2,
 h3 {
-    font-family: "Copperplate Gothic Light", serif;
-    letter-spacing: 0.2rem;
+   font-family: "Copperplate Gothic Light", serif;
+   letter-spacing: 0.2rem;
 }
 
 h2 {
-    font-size: 3.6rem;
-    font-weight: 300;
+   font-size: 3.6rem;
+   font-weight: 300;
 }
 
 h3 {
-    font-size: 3.2rem;
-    font-weight: 300;
+   font-size: 3.2rem;
+   font-weight: 300;
 }
 
 p,
 a {
-    font-size: 2rem;
-    line-height: 1.6;
+   font-size: 2rem;
+   line-height: 1.6;
 }
 
 .header {
-    position: relative;
-    height: 12rem;
-    color: #fff;
+   position: relative;
+   height: 12rem;
+   color: #fff;
 }
 
 .main-nav {
-    position: absolute;
-    top: 4.4rem;
-    right: 4.8rem;
-    list-style: none;
-    display: flex;
-    gap: 3.2rem;
+   position: absolute;
+   top: 4.4rem;
+   right: 4.8rem;
+   list-style: none;
+   display: flex;
+   gap: 3.2rem;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
-    text-underline-offset: 1rem;
-    text-decoration-color: #233c5900;
-    color: #343a40;
-    font-size: 2rem;
-    font-weight: 500;
-    /* transition: all 0.4s ease-in-out; */
+   text-underline-offset: 1rem;
+   text-decoration-color: #233c5900;
+   color: #343a40;
+   font-size: 1.8rem;
+   font-weight: 500;
+   transition: all 0.25s ease-in-out;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #233c59;
-    text-decoration-color: #233c59;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
+   color: #233c59;
+   text-decoration-color: #233c59;
+   text-decoration: underline;
+   text-underline-offset: 1rem;
 }
 
 .logo-link:link,
 .logo-link:visited {
-    position: absolute;
-    top: 2.6rem;
-    left: 4.8rem;
-    cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
-    z-index: 999;
+   position: absolute;
+   top: 2.6rem;
+   left: 4.8rem;
+   cursor: pointer;
+   transition: opacity 0.3s ease-in-out;
+   z-index: 999;
 }
 
 .logo-link:hover,
 .logo-link:active {
-    opacity: 0.6;
+   opacity: 0.6;
 }
 
 .logo {
-    height: 6.8rem;
+   height: 6.8rem;
 }
 
 .main-nav-link.active {
-    color: #233c59;
-    text-decoration-color: #233c59;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
+   color: #233c59;
+   text-decoration-color: #233c59;
+   text-decoration: underline;
+   text-underline-offset: 1rem;
 }
 
 footer {
-    font-size: 1.6rem;
-    height: 3.6rem;
-    background-color: #0a2647;
-    color: #b6bec8;
-    text-align: center;
-    line-height: 2;
+   font-size: 1.6rem;
+   height: 3.6rem;
+   background-color: #0a2647;
+   color: #b6bec8;
+   text-align: center;
+   line-height: 2;
 }
 
 .anchor {
-    scroll-margin-top: 12rem;
+   scroll-margin-top: 12rem;
 }
 
 .container {
-    max-width: 130rem;
-    margin: 0 auto;
-}
-
-#back-to-top {
-    position: fixed;
-    cursor: pointer;
-    bottom: 3rem;
-    right: 3rem;
-    opacity: 0;
-    transition: opacity 0.5s;
-    z-index: 1000;
-}
-
-.back-to-top-icn {
-    stroke-width: 1px;
-    height: 48px;
-    width: 48px;
-    color: #0a2647;
+   max-width: 130rem;
+   margin: 0 auto;
 }
 
 ul {
-    list-style-type: none;
+   list-style-type: none;
 }
 
 .bullet-list li {
-    position: relative;
-    padding-left: 1em;
-    line-height: 1.6;
+   position: relative;
+   padding-left: 1em;
+   line-height: 1.6;
 }
 
 .bullet-list li::before {
-    position: absolute;
-    font-family: Arial, sans-serif;
-    content: "\2022";
-    font-size: 1em;
-    left: 0;
-    top: 0;
+   position: absolute;
+   font-family: Arial, sans-serif;
+   content: "\2022";
+   font-size: 1em;
+   left: 0;
+   top: 0;
 }
 
 /* MOBILE navigation menu */
 .mobile-menu {
-    display: none;
+   display: none;
 }
 
 .menu-icon span {
-    height: 0.2rem;
-    background-color: #233c59;
+   height: 0.2rem;
+   background-color: #233c59;
 }
 
 .mobile-nav {
-    list-style: none;
-    background-color: #fff;
-    color: #0a2647;
-    position: absolute;
-    width: 100%;
-    top: 0rem;
-    left: 0;
-    height: 0;
-    transition: height 0.3s ease-out;
-    white-space: nowrap;
-    text-align: center;
-    overflow: hidden;
-    z-index: 666;
+   list-style: none;
+   background-color: #fff;
+   color: #0a2647;
+   position: absolute;
+   width: 100%;
+   top: 0rem;
+   left: 0;
+   height: 0;
+   transition: height 0.3s ease-out;
+   white-space: nowrap;
+   text-align: center;
+   overflow: hidden;
+   z-index: 666;
 }
 
 .mobile-menu-list {
-    margin-top: 12rem;
+   margin-top: 12rem;
 }
 
 .mobile-nav.open {
-    height: 55rem;
-    box-shadow: 0 4rem 5rem rgba(57, 57, 57, 0.2);
-    z-index: 666;
+   height: 55rem;
+   box-shadow: 0 4rem 5rem rgba(57, 57, 57, 0.2);
+   z-index: 666;
 }
 
 .mobile-nav .main-nav-link {
-    font-size: 3.2rem;
-    font-weight: 400;
-    line-height: 12rem;
-    color: #0a2647;
+   font-size: 3.2rem;
+   font-weight: 400;
+   line-height: 12rem;
+   color: #0a2647;
 }
 
 .menu-icon {
-    position: absolute;
-    top: 4.8rem;
-    right: 4.8rem;
-    cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    z-index: 999;
-    /* position: relative; */
+   position: absolute;
+   top: 4.8rem;
+   right: 4.8rem;
+   cursor: pointer;
+   width: 3rem;
+   height: 3rem;
+   z-index: 999;
+   /* position: relative; */
 }
 
 .line {
-    width: 100%;
-    height: 0.2rem;
-    background: #0a2647;
-    position: absolute;
-    left: 0;
-    transition: all 0.5s ease;
+   width: 100%;
+   height: 0.2rem;
+   background: #0a2647;
+   position: absolute;
+   left: 0;
+   transition: all 0.5s ease;
 }
 
 .line1 {
-    top: 0;
+   top: 0;
 }
 
 .line2 {
-    top: 1rem;
+   top: 1rem;
 }
 
 .line3 {
-    top: 2rem;
+   top: 2rem;
 }
 
 .menu-icon.close .line1 {
-    transform: rotate(-45deg) translateY(1.4rem);
+   transform: rotate(-45deg) translateY(1.4rem);
 }
 
 .menu-icon.close .line2 {
-    opacity: 0;
+   opacity: 0;
 }
 
 .menu-icon.close .line3 {
-    transform: rotate(45deg) translateY(-1.4rem);
+   transform: rotate(45deg) translateY(-1.4rem);
 }
 
 /* Hiding mobile menu icon for wide screen devices */
 @media (min-width: 55em) {
-    .menu-icon {
-        display: none;
-    }
+   .menu-icon {
+      display: none;
+   }
 }

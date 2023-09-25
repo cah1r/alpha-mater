@@ -1,58 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 html {
-    font-family: "Cairo", sans-serif;
-    color: #212529;
-    scroll-behavior: smooth;
-    font-size: 62.5%;
+   font-family: "Cairo", sans-serif;
+   color: #212529;
+   scroll-behavior: smooth;
+   font-size: 62.5%;
 }
 
 a {
-    text-decoration: none;
-    color: #343a40;
+   text-decoration: none;
+   color: #343a40;
 }
 
 .projects-title {
-    opacity: 0;
-    transform: translateY(100%);
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+   opacity: 0;
+   transform: translateY(100%);
+   transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
 .contact-component {
-    background-image: url(../img/contact/main_background.jpg);
-    background-size: cover;
-    background-position: top right;
-    height: calc(100vh - 12rem - 3.55rem);
-    min-height: 75rem;
+   background-image: url(../img/contact/main_background.jpg);
+   background-size: cover;
+   background-position: top right;
+   height: calc(100vh - 12rem - 3.55rem);
+   min-height: 75rem;
 }
 
 .contact-box {
-    padding: 9% 12%;
+   padding: 12% 12%;
 }
 
 .address-box {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3.6rem;
-    position: relative;
+   display: flex;
+   flex-direction: column;
+   margin-top: 3.6rem;
+   position: relative;
 }
 
 .address-box::before {
-    position: absolute;
-    content: "";
-    border-left: 1px solid #b20000;
-    left: -4rem;
-    top: 1rem;
-    bottom: 0;
-    height: 90%;
+   position: absolute;
+   content: "";
+   border-left: 1px solid #b20000;
+   left: -4rem;
+   top: 1rem;
+   bottom: 0;
+   height: 90%;
 }
 
 .divider {
-    border-top: solid 1px;
-    max-width: 12rem;
-    margin: 2.4rem 0;
+   border-top: solid 1px;
+   max-width: 12rem;
+   margin: 2.4rem 0;
 }

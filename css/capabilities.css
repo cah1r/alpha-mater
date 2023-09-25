@@ -182,10 +182,6 @@ html {
    background: linear-gradient(to right, #53534b 85%, #53534b00);
 }
 
-footer {
-   margin-top: 4.8rem;
-}
-
 .divider {
    border-top: solid 2px;
    max-width: 12rem;

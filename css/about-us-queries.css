@@ -32,23 +32,22 @@
    }
 }
 
+/* 1344px */
 @media (max-width: 84em) {
+   .locations {
+      display: none;
+   }
+}
+/* 1200px */
+@media (max-width: 75em) {
    .start-journey-section {
       background-position: left;
       background-size: auto;
-   }
-
-   .locations {
-      display: none;
    }
 }
 
 /* 1136px */
 @media (max-width: 71em) {
-   .start-journey-section {
-      padding: 6.4rem 4.8rem;
-   }
-
    .consultants-container {
       grid-template-columns: 1fr;
       margin: 0 auto;
@@ -73,8 +72,7 @@
       grid-template-columns: 1fr;
       grid-template-rows: 30rem 1fr;
       padding: 0 5%rem;
-      /* margin: 8.6rem auto;  for old photo */
-      margin: 3.6rem auto 9.6rem auto;
+      margin: 8.6rem auto;
       gap: 2rem;
    }
 
@@ -126,6 +124,12 @@
 
 /* 575px */
 @media (max-width: 36em) {
+   p,
+   a,
+   li {
+      font-size: 2rem;
+   }
+
    .consultants-container {
       padding: 3.2rem 0;
    }

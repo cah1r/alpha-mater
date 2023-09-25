@@ -1,89 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 html {
-    font-family: "Cairo", sans-serif;
-    color: #212529;
-    scroll-behavior: smooth;
-    font-size: 62.5%;
+   font-family: "Cairo", sans-serif;
+   color: #212529;
+   scroll-behavior: smooth;
+   font-size: 62.5%;
 }
 
 .left-component {
-    grid-template-columns: 62.5% 37.5%;
-    box-shadow: 2rem 0 8rem -2rem rgba(44, 44, 44, 0.2);
+   grid-template-columns: 62.5% 37.5%;
+   box-shadow: 2rem 0 8rem -2rem rgba(44, 44, 44, 0.2);
 }
 
 .right-component {
-    grid-template-columns: 37.5% 62.5%;
-    margin: 0 0 0 auto;
-    box-shadow: -2rem 0 8rem -2rem rgba(44, 44, 44, 0.2);
+   grid-template-columns: 37.5% 62.5%;
+   margin: 0 0 0 auto;
+   box-shadow: -2rem 0 8rem -2rem rgba(44, 44, 44, 0.2);
 }
 
 .industry-component {
-    display: grid;
-    max-width: 80%;
-    height: 60rem;
+   display: grid;
+   max-width: 80%;
+   height: 60rem;
 }
 
 .img-box {
-    background-size: cover;
+   background-size: cover;
 }
 
 .industry-content {
-    margin-left: 3.2rem;
-    margin-right: 2.4rem;
-    align-self: center;
+   margin-left: 3.2rem;
+   margin-right: 2.4rem;
+   align-self: center;
 }
 
 .industries-section li {
-    list-style: none;
-    font-size: 2.4rem;
-    line-height: 2;
+   list-style: none;
+   font-size: 2rem;
+   line-height: 2;
 }
 
 .divider {
-    border-top: solid 1px;
-    max-width: 6rem;
-    margin: 2.4rem 0;
+   border-top: solid 1px;
+   max-width: 6rem;
+   margin: 2.4rem 0;
 }
 
 /*----------------------------------------------------------------*/
 /* Images */
 /*----------------------------------------------------------------*/
 .industries-section img {
-    width: 100%;
+   width: 100%;
 }
 
 .fs-img-box {
-    background-image: url(../img/industries/financial-services.jpg);
-    background-position: left;
+   background-image: url(../img/industries/financial-services.jpg);
+   background-position: left;
 }
 
 .services-img-box {
-    background-image: url(../img/industries/services.jpg);
-    background-position: right;
+   background-image: url(../img/industries/services.jpg);
+   background-position: right;
 }
 
 .cg-img-box {
-    background-image: url(../img/industries/consumer-goods.jpg);
-    background-position: bottom;
+   background-image: url(../img/industries/consumer-goods.jpg);
+   background-position: bottom;
 }
 
 .retail-img-box {
-    background-image: url(../img/industries/retail.jpg);
-    background-position: bottom;
+   background-image: url(../img/industries/retail.jpg);
+   background-position: bottom;
 }
 
 .tt-img-box {
-    background-image: url(../img/industries/travel-tourism.jpg);
-    background-position: bottom;
+   background-image: url(../img/industries/travel-tourism.jpg);
+   background-position: bottom;
 }
 
 .equity-img-box {
-    background-image: url(../img/industries/private-equity.jpg);
-    background-position: left;
-    transform: scale(0.7);
+   background-image: url(../img/industries/private-equity.jpg);
+   background-position: left;
+   transform: scale(0.7);
 }
