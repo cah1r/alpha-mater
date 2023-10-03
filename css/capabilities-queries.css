@@ -1,7 +1,24 @@
-@media (max-width: 85em) {
+/* 1368px */
+@media (max-width: 85.5em) {
    .sales-img-box {
       background-size: 120%;
       background-repeat: no-repeat;
+   }
+
+   h3 {
+      font-size: 2.8rem;
+   }
+
+   .consulting-group-box ul {
+      font-size: 1.8rem;
+   }
+
+   .content-main-list {
+      font-size: 2rem;
+   }
+
+   .consulting-group-member-content p {
+      font-size: 1.8rem;
    }
 }
 
@@ -18,6 +35,7 @@
    }
 }
 
+/* 1200px */
 @media (max-width: 75em) {
    .background-container {
       display: flex;
@@ -71,6 +89,14 @@
 @media (max-width: 59em) {
    .consulting-group-member-content {
       width: 100rem;
+   }
+
+   .content-main-list {
+      font-size: 2.2rem;
+   }
+
+   .consulting-group-member-content p {
+      font-size: 2rem;
    }
 
    .strategy-img-box {

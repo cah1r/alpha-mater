@@ -3,6 +3,11 @@
    .start-journey-section {
       background-image: url(../img/about-us/main_background.jpg);
    }
+
+   .locations {
+      right: 4%;
+      bottom: 25%;
+   }
 }
 
 /* 1500px */
@@ -32,14 +37,19 @@
    }
 }
 
-/* 1344px */
-@media (max-width: 84em) {
+/* 1368px */
+@media (max-width: 85.5em) {
+   .eric-section {
+      margin: 9.6rem auto;
+   }
+}
+
+/* 1200px */
+@media (max-width: 75em) {
    .locations {
       display: none;
    }
-}
-/* 1200px */
-@media (max-width: 75em) {
+
    .start-journey-section {
       background-position: left;
       background-size: auto;

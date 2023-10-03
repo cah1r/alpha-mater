@@ -41,7 +41,7 @@ p {
 
 .hero {
    display: grid;
-   height: calc((var(--vh, 1vh) * 100) - 140px);
+   height: calc((var(--vh, 1vh) * 100) - 11rem);
    min-height: 35rem;
    background-image: url(../img/index/hero.jpg);
    background-size: cover;
@@ -102,7 +102,7 @@ h4 {
 .main-bar {
    display: flex;
    align-items: center;
-   height: 140px;
+   height: 11rem;
    background-color: #0a2647;
    color: #f8f9fa;
 }
@@ -160,24 +160,6 @@ h4 {
 
 .ste-content-element .divider {
    margin: 0;
-}
-
-.to-specialise-icn {
-   position: absolute;
-   cursor: pointer;
-   height: 32px;
-   width: 32px;
-   left: 50%;
-   bottom: 5%;
-   transform: translate(-50% -50%);
-   transition: all 0.3 ease-in-out;
-}
-
-.btn-arrd:link,
-.btn-arrd:visited {
-   color: #212529;
-   cursor: pointer;
-   transition: all 0.3s ease-in-out;
 }
 
 /* ========================================== */

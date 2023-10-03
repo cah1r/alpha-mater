@@ -1,24 +1,24 @@
 /* 950px */
 @media (max-width: 66em) {
-    .contact-component {
-        background-image: url(../img/contact/main_background_m.jpg);
-        background-size: cover;
-        background-position: bottom right;
-        width: 100%;
-    }
+   .contact-component {
+      background-image: url(../img/contact/main_background_m.jpg);
+      background-size: cover;
+      background-position: bottom right;
+      width: 100%;
+   }
 }
 
 /* 670px */
 @media (max-width: 41.8em) {
-    h2 {
-        font-size: 3.8rem;
-    }
+   h2 {
+      font-size: 3.8rem;
+   }
 
-    .contact-box {
-        padding: 19% 5% 19% 10%;
-    }
+   .contact-box {
+      padding: 19% 5% 19% 10%;
+   }
 
-    .address-box::before {
-        left: -3rem;
-    }
+   .address-box::before {
+      left: -3rem;
+   }
 }

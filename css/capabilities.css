@@ -74,7 +74,6 @@ html {
    display: flex;
    align-items: center;
    background-size: cover;
-   margin-top: 3.6rem;
    box-shadow: 0 0 4rem rgba(57, 57, 57, 0.4);
    height: calc(100vh - 15.6rem);
    min-height: 90rem;

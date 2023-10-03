@@ -12,11 +12,14 @@
       font-size: 4.2rem;
    }
 
-   /* .quotes { */
-   /* margin-right: 4%; */
-   /* margin-bottom: 8vw; */
-   /* align-self: flex-end; */
-   /* } */
+   h2,
+   .specialise-title h2 {
+      font-size: 3rem;
+   }
+
+   h3 {
+      font-size: 2.8rem;
+   }
 
    .see-more-component {
       bottom: -6rem;
@@ -34,15 +37,19 @@
       max-width: 60%;
    }
 
-   /* .hero-container {
-      height: auto;
-   } */
+   .main-bar p {
+      font-size: 1.9rem;
+   }
+
+   .ste-content-element p {
+      font-size: 1.8rem;
+   }
 }
 
 /* 1280px */
 @media (max-width: 80em) {
    .quotes h1 {
-      font-size: 4rem;
+      font-size: 3.8rem;
    }
 
    .quotes {
@@ -56,10 +63,6 @@
 
    .expertise-container {
       margin: 2.4rem;
-   }
-
-   .btn-arrd {
-      display: none;
    }
 
    .see-more-component {
@@ -106,11 +109,6 @@
 
 /* 960px */
 @media (max-width: 60em) {
-   .main-nav-link:link,
-   .main-nav-link:visited {
-      font-size: 2.6rem;
-   }
-
    .nav h2 {
       font-size: 4rem;
       line-height: 1.5;
@@ -150,7 +148,7 @@
    }
 
    .specialise-title h2 {
-      font-size: 3.8rem;
+      font-size: 3.2rem;
    }
 
    .specialise-container {
@@ -274,7 +272,7 @@
    }
 
    .hero {
-      height: calc((var(--vh, 1vh) * 100) - 16rem);
+      height: calc((var(--vh, 1vh) * 100) - 13rem);
    }
 
    .quotes {
@@ -288,13 +286,8 @@
       line-height: 1.6;
    }
 
-   h2,
-   .specialise-title h2 {
-      font-size: 3.2rem;
-   }
-
    .main-bar {
-      height: 16rem;
+      height: 13rem;
    }
 
    .main-bar-title {

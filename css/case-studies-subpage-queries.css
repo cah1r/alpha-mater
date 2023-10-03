@@ -1,76 +1,94 @@
+/* 1368px */
+@media (max-width: 85.5em) {
+   h2,
+   h3 {
+      font-size: 3rem;
+   }
+
+   .title-bar,
+   .bar-container,
+   .subsection-bar {
+      height: 9rem;
+   }
+
+   .img-fx {
+      height: 8rem;
+   }
+
+   .subsection-title {
+      gap: 0.2rem;
+   }
+}
+
 /* 1350px */
 @media (max-width: 84.37em) {
-    .bar-container {
-        padding-left: 4.8rem;
-    }
+   .bar-container {
+      padding-left: 4.8rem;
+   }
 
-    .subsection-bar-content,
-    .subsection-content {
-        padding: 0 4.8rem 0 4.8rem;
-    }
+   .subsection-bar-content,
+   .subsection-content {
+      padding: 0 4.8rem 0 4.8rem;
+   }
 }
 
 /* 950px */
 @media (max-width: 59em) {
-    .img-fx {
-        height: 10rem;
-    }
+   .img-fx {
+      height: 10rem;
+   }
 }
 
 /* 750px */
 @media (max-width: 46.8em) {
-    .img-fx {
-        display: none;
-    }
+   .img-fx {
+      display: none;
+   }
 }
 
 /* 666px */
 @media (max-width: 41.6em) {
-    .subsection-content {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
+   .subsection-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+   }
 
-    .content-block {
-        margin-top: 3.6rem;
-    }
+   .content-block {
+      margin-top: 3.6rem;
+   }
 
-    .subsection-bar-content h3 {
-        font-size: 2.8rem;
-    }
+   .subsection-bar-content h3 {
+      font-size: 2.8rem;
+   }
 }
 
 /* 550px */
 @media (max-width: 34.37em) {
-    .subsection-bar {
-        height: 14em;
-    }
+   .bar-container {
+      padding-left: 2rem;
+   }
 
-    .bar-container {
-        padding-left: 2rem;
-    }
+   .subsection-bar-content,
+   .subsection-content {
+      padding: 0 2rem 0 2rem;
+   }
 
-    .subsection-bar-content,
-    .subsection-content {
-        padding: 0 2rem 0 2rem;
-    }
-
-    .subsection-title p {
-        line-height: 2.2rem;
-    }
+   .subsection-title p {
+      line-height: 2.2rem;
+   }
 }
 
 /* Corporate Strategy title for mobile has to be shorter than on desktop for design purposes */
 
 @media (min-width: 74.3701em) {
-    .cs-mobile {
-        display: none;
-    }
+   .cs-mobile {
+      display: none;
+   }
 }
 
 @media (max-width: 74.37em) {
-    .cs-desktop {
-        display: none;
-    }
+   .cs-desktop {
+      display: none;
+   }
 }

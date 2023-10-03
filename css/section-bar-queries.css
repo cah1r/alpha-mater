@@ -1,3 +1,14 @@
+/* 1368px */
+@media (max-width: 85.5em) {
+   h2 {
+      font-size: 3.2rem;
+   }
+
+   .section-bar p {
+      font-size: 2.2rem;
+   }
+}
+
 /* 1248px */
 @media (max-width: 78em) {
    .section-bar {
@@ -22,8 +33,8 @@
 }
 
 /* 600px */
-@media (max-width: 37.5em) {
+/* @media (max-width: 37.5em) {
    h2 {
       font-size: 3.2rem;
    }
-}
+} */
