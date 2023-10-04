@@ -42,6 +42,10 @@
    .eric-section {
       margin: 9.6rem auto;
    }
+
+   .start-journey-section {
+      min-height: 60rem;
+   }
 }
 
 /* 1200px */

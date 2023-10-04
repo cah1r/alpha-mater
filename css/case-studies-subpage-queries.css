@@ -37,6 +37,12 @@
    .img-fx {
       height: 10rem;
    }
+
+   .title-bar,
+   .bar-container,
+   .subsection-bar {
+      height: 11rem;
+   }
 }
 
 /* 750px */

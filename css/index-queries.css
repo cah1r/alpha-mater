@@ -213,6 +213,12 @@
    }
 }
 
+@media (max-width: 59em) {
+   html {
+      font-size: 50%;
+   }
+}
+
 /* 880px */
 @media (max-width: 55em) {
    .see-more-component {

@@ -1,3 +1,9 @@
+@media (max-width: 85.5em) {
+   .anchor {
+      scroll-margin-top: 8.9rem;
+   }
+}
+
 /* 1136px */
 @media (max-width: 71em) {
    .main-nav {
@@ -7,13 +13,8 @@
 
 /* 950px */
 @media (max-width: 59em) {
-   html {
-      font-size: 50%;
-   }
-
-   .main-nav-link:link,
-   .main-nav-link:visited {
-      font-size: 2.4rem;
+   .anchor {
+      scroll-margin-top: 10.9rem;
    }
 }
 
@@ -24,7 +25,7 @@
    }
 
    .mobile-nav .main-nav-link {
-      font-size: 2.6rem;
+      font-size: 2.1rem;
       line-height: 8rem;
    }
 }
@@ -37,5 +38,15 @@
 
    .menu-icon {
       right: 2.4rem;
+   }
+}
+
+@media (max-width: 30em) {
+   html {
+      font-size: 50%;
+   }
+
+   .mobile-nav .main-nav-link {
+      font-size: 2.4rem;
    }
 }

@@ -47,13 +47,7 @@
 
 /* 944px */
 @media (max-width: 59em) {
-   a,
-   .group-title {
-      font-size: 2.4rem;
-   }
-
-   .group-box:link,
-   .group-box:visited {
+   .group-box:link .group-box:visited {
       height: 22rem;
    }
 
@@ -74,5 +68,11 @@
 @media (min-width: 41.2000001em) {
    .container--mobile {
       display: none;
+   }
+}
+@media (max-width: 30em) {
+   a,
+   .group-title {
+      font-size: 2.4rem;
    }
 }

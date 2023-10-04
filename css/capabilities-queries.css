@@ -120,16 +120,24 @@
    }
 }
 
-/* 670px */
-@media (max-width: 41.8em) {
+/* 820px */
+@media (max-width: 51em) {
+   .consulting-groups-section {
+      gap: 1.2rem;
+   }
+}
+
+/* 790px */
+@media (max-width: 49em) {
    .consulting-groups-section {
       grid-template-columns: 1fr;
       justify-items: center;
       padding: 4.8rem 1.2rem 6.4rem 1.2rem;
+      gap: 3.2rem;
    }
 
    .consulting-group-box {
-      min-width: 100%;
+      width: 40rem;
    }
 
    .consulting-group-box ul {
