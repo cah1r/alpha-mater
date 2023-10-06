@@ -1,112 +1,180 @@
-/* 1400px */
-@media (max-width: 87.5em) {
+/* 1368px */
+@media (max-width: 85.5em) {
+   .sales-img-box {
+      background-size: 120%;
+      background-repeat: no-repeat;
+   }
+
+   h3 {
+      font-size: 2.8rem;
+   }
+
+   .consulting-group-box ul {
+      font-size: 1.8rem;
+   }
+
+   .content-main-list {
+      font-size: 2rem;
+   }
+
+   .consulting-group-member-content p {
+      font-size: 1.8rem;
+   }
 }
 
 /* 1248px */
 @media (max-width: 78em) {
-    .consulting-groups-section {
-        grid-template-columns: repeat(2, 38rem);
-    }
+   .consulting-groups-section {
+      grid-template-columns: repeat(2, 38rem);
+   }
+}
+
+@media (min-width: 75.000001) {
+   .strategy-img-mobile {
+      display: none;
+   }
+}
+
+/* 1200px */
+@media (max-width: 75em) {
+   .background-container {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .text-container,
+   .background-container {
+      width: 100%;
+   }
+
+   .text-container {
+      padding: 6.4rem;
+   }
+
+   .strategy-img-box,
+   .predeal-img-box,
+   .postdeal-img-box,
+   .transformation-img-box,
+   .marketing-img-box,
+   .sales-img-box {
+      background-image: none;
+   }
+
+   .strategy-text-background {
+      background-color: #071726;
+   }
+
+   .predeal-text-background {
+      background-color: #858688;
+   }
+
+   .postdeal-text-background {
+      background-color: #bac6e1;
+   }
+
+   .transformation-text-background {
+      background-color: #000;
+   }
+
+   .marketing-text-background {
+      background-color: #53534b;
+   }
+
+   .sales-text-background {
+      background-color: #ff7c06;
+   }
 }
 
 /* 950px */
 @media (max-width: 59em) {
-    .consulting-group-member-content {
-        padding: 3.6rem 16rem 3.6rem 9.6rem;
-    }
+   .consulting-group-member-content {
+      width: 100rem;
+   }
 
-    .strategy-content {
-        background: linear-gradient(to right, #071726 85%, #07172600);
-    }
+   .content-main-list {
+      font-size: 2.2rem;
+   }
 
-    .predeal-img-box {
-        background-position: left;
-    }
+   .consulting-group-member-content p {
+      font-size: 2rem;
+   }
 
-    .postdeal-img-box {
-        background-position: 10%;
-    }
+   .strategy-img-box {
+      background-position: 70%;
+   }
 
-    .transformation-img-box {
-        background-position: 30%;
-    }
+   .predeal-img-box {
+      background-position: 95%;
+   }
 
-    .marketing-img-box {
-        background-position: 10%;
-    }
+   .postdeal-img-box {
+      background-position: 35%;
+   }
 
-    .sales-img-box {
-        background-position: left;
-    }
+   .transformation-img-box {
+      background-position: 40%;
+   }
+
+   .marketing-img-box {
+      background-position: 50%;
+   }
 }
 
-/* 850px */
-@media (max-width: 53.1em) {
-    .section-bar {
-        grid-template-columns: 1fr;
-    }
-
-    .section-bar-subtitle {
-        display: none;
-    }
+/* 820px */
+@media (max-width: 51em) {
+   .consulting-groups-section {
+      gap: 1.2rem;
+   }
 }
 
-/* 670px */
-@media (max-width: 41.8em) {
-    .consulting-groups-section {
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
+/* 790px */
+@media (max-width: 49em) {
+   .consulting-groups-section {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      padding: 4.8rem 1.2rem 6.4rem 1.2rem;
+      gap: 3.2rem;
+   }
 
-    .consulting-group-box {
-        min-width: 38rem;
-    }
+   .consulting-group-box {
+      width: 40rem;
+   }
 
-    .content-main-list {
-        font-size: 2.4rem;
-    }
+   .consulting-group-box ul {
+      font-size: 2.2rem;
+   }
 
-    .content-list {
-        margin-left: 1.2rem;
-    }
+   .content-main-list {
+      font-size: 2.4rem;
+   }
+
+   .content-list {
+      margin-left: 1.2rem;
+   }
 }
 
 /* 544px */
 @media (max-width: 34em) {
-    .consulting-group-member-content {
+   /* .consulting-group-member-content {
         padding: 4.8rem 2.4rem;
-    }
+    } */
 
-    .strategy-img-box,
-    .predeal-img-box,
-    .postdeal-img-box,
-    .transformation-img-box,
-    .marketing-img-box,
-    .sales-img-box {
-        background-image: none;
-    }
+   .text-container {
+      padding: 6.4rem 1.2rem;
+   }
+}
 
-    .strategy-content {
-        background-color: #071726;
-    }
+@media (max-width: 29em) {
+   .main-container {
+      height: auto;
+   }
 
-    .predeal-content {
-        background-color: #858688;
-    }
+   .consulting-group-member {
+      min-height: auto;
+      height: auto;
+   }
 
-    .postdeal-content {
-        background-color: #bac6e1;
-    }
-
-    .transformation-content {
-        background-color: #000;
-    }
-
-    .marketing-content {
-        background-color: #53534b;
-    }
-
-    .sales-content {
-        background-color: #ff7c06;
-    }
+   .background-container {
+      height: auto;
+   }
 }

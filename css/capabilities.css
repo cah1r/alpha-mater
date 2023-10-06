@@ -1,208 +1,222 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 html {
-    font-family: "Cairo", sans-serif;
-    color: #212529;
-    scroll-behavior: smooth;
-    font-size: 62.5%;
+   font-family: "Cairo", sans-serif;
+   color: #212529;
+   scroll-behavior: smooth;
+   font-size: 62.5%;
 }
 
-h4 {
-    font-family: "Copperplate Gothic Light", serif;
-    font-size: 3.2rem;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.4rem;
-}
-
-p {
-    font-size: 2.1rem;
-    line-height: 1.6;
+.main-container {
+   height: calc(100vh - 12rem);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 .consulting-groups-section {
-    display: grid;
-    grid-template-columns: repeat(3, 38rem);
-    gap: 4.8rem;
-    padding: 6.4rem 2.4rem;
-    justify-content: center;
-    background-image: url(../img/capabilities/main_background.jpg);
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 3rem 5rem #444444b3;
-    line-height: 1.8;
+   display: grid;
+   position: relative;
+   grid-template-columns: repeat(3, 38rem);
+   gap: 4.8rem;
+   padding: 4.8rem 2.4rem 6.4rem 2.4rem;
+   justify-content: center;
+   line-height: 1.8;
 }
-/*
+
 .consulting-groups-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: url(../img/capabilities/main_background.jpg) no-repeat center center;
-  background-size: cover;
-  filter: blur(.2rem);
-  z-index: -1;
-} 
-*/
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(../img/capabilities/main_background.jpg) no-repeat center center;
+   background-size: cover;
+   transform: rotate(0.5turn);
+   filter: blur(0.1rem) opacity(0.2);
+   z-index: -1;
+}
 
 .consulting-group-box:link,
 .consulting-group-box:visited {
-    text-decoration: none;
-    text-align: center;
-    padding: 3.6rem 2.4rem;
-    background-color: #0a2647;
-    color: #ddd;
-    cursor: pointer;
-    box-shadow: 0 0.5rem 1rem #000000;
-    transition: all 0.2s ease-in-out;
+   text-decoration: none;
+   text-align: center;
+   padding: 3.6rem 2.4rem;
+   background-color: #0a2647;
+   color: #ddd;
+   cursor: pointer;
+   box-shadow: 0 0.5rem 1rem #000000;
+   transition: all 0.2s ease-in-out;
 }
 
 .consulting-group-box:hover,
 .consulting-group-box:active {
-    box-shadow: 0 0.5rem 5rem #000000;
+   box-shadow: 0 0.5rem 5rem #000000;
 }
 
 .consulting-group-box ul {
-    list-style: none;
-    font-size: 2.2rem;
-    font-weight: 400;
+   list-style: none;
+   font-size: 2rem;
+   font-weight: 400;
+   line-height: 2;
 }
 
 .consulting-group-list {
-    margin-top: 2.6rem;
+   margin-top: 2.6rem;
 }
 
 .consulting-group-member {
-    display: flex;
-    align-items: center;
-    background-size: cover;
-    margin-top: 9.6rem;
-    box-shadow: 0 0 4rem rgba(57, 57, 57, 0.4);
+   display: flex;
+   align-items: center;
+   background-size: cover;
+   box-shadow: 0 0 4rem rgba(57, 57, 57, 0.4);
+   height: calc(100vh - 15.6rem);
+   min-height: 90rem;
+   max-height: 120rem;
 }
 
 .consulting-group-member-content {
-    padding: 3.6rem 32rem 3.6rem 9.6rem;
-    max-width: 106rem;
+   min-height: 80rem;
+   flex-basis: content;
+   height: 100%;
+}
+
+.background-container {
+   flex-basis: content;
+   height: 100%;
+   width: 55%;
+   display: flex;
+   align-items: center;
+}
+
+.text-container {
+   padding: 7.6rem 6.4rem;
+   width: 90%;
 }
 
 .consulting-group-member-content p {
-    margin-top: 2.6rem;
+   margin-top: 2.6rem;
 }
 
 .content-main-list {
-    list-style: none;
-    font-size: 2.6rem;
-    font-weight: 500;
-    margin-top: 2.6rem;
-    margin-bottom: 1rem;
+   list-style: none;
+   font-size: 2.3rem;
+   font-weight: 500;
+   margin-top: 2.6rem;
+   margin-bottom: 1rem;
 }
 
 .content-list {
-    font-size: 2.2rem;
-    margin-top: 1rem;
-    margin-left: 3.6rem;
+   font-size: 2rem;
+   margin-left: 3.6rem;
+   margin-top: 0.6rem;
+}
+
+.strategy-img-box,
+.strategy-img-mobile {
+   background-image: url(../img/capabilities/strategy.jpg);
 }
 
 .strategy-img-box {
-    background-image: url(../img/capabilities/strategy.jpg);
-    background-position: center;
+   background-position: center;
 }
 
-.strategy-content {
-    background: linear-gradient(to right, #071726 77%, #07172600);
+.strategy-text-background {
+   background: linear-gradient(to right, #071726 80%, #07172600);
+}
+
+.predeal-img-box,
+.predeal-img-mobile {
+   background-image: url(../img/capabilities/predeal.jpg);
 }
 
 .predeal-img-box {
-    background-image: url(../img/capabilities/predeal.jpg);
-    background-position: 80%;
+   background-position-x: 97%;
+   background-position-y: 20%;
 }
 
-.predeal-content {
-    background: linear-gradient(to right, #858688 70%, #85868800);
+.predeal-text-background {
+   background: linear-gradient(to right, #858688 80%, #85868800);
 }
 
 .postdeal-img-box {
-    background-image: url(../img/capabilities/postdeal.jpg);
-    background-position: 20%;
+   background-image: url(../img/capabilities/postdeal.jpg);
+   background-position: 70%;
 }
 
-.postdeal-content {
-    background: linear-gradient(to right, #bac6e1 70%, #bac6e100);
+.postdeal-text-background {
+   background: linear-gradient(to right, #bac6e1 80%, #bac6e100);
 }
 
 .transformation-img-box {
-    background-image: url(../img/capabilities/transformation.jpg);
-    background-position: 50%;
+   background-image: url(../img/capabilities/transformation.jpg);
+   background-position: 50%;
 }
 
-.transformation-content {
-    background: linear-gradient(to right, #000 70%, #00000000);
+.transformation-text-background {
+   background: linear-gradient(to right, #000 80%, #00000000);
 }
 
 .sales-img-box {
-    background-image: url(../img/capabilities/sales.jpg);
-    background-position: top;
+   background-image: url(../img/capabilities/sales.jpg);
+   background-position: bottom right;
+   background-size: cover;
 }
 
-.sales-content {
-    background: linear-gradient(to right, #ff7c06 70%, #ff7c0600);
+.sales-text-background {
+   background: linear-gradient(to right, #ff7c06 80%, #ff7c0600);
 }
 
 .marketing-img-box {
-    background-image: url(../img/capabilities/marketing.jpg);
-    background-position: 35%;
+   background-image: url(../img/capabilities/marketing.jpg);
+   background-position: 85%;
 }
 
-.marketing-content {
-    background: linear-gradient(to right, #53534b 70%, #53534b00);
-}
-
-footer {
-    margin-top: 4.8rem;
+.marketing-text-background {
+   background: linear-gradient(to right, #53534b 85%, #53534b00);
 }
 
 .divider {
-    border-top: solid 2px;
-    max-width: 12rem;
+   border-top: solid 2px;
+   max-width: 12rem;
 }
 
 .go-to-case {
-    display: flex;
-    margin-top: 4.4rem;
+   display: flex;
+   margin-top: 4.4rem;
 }
 
 .go-to-case-link:link,
 .go-to-case-link:visited {
-    display: flex;
-    align-items: center;
-    font-size: 2.4rem;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    width: fit-content;
-    gap: 0.7rem;
+   display: flex;
+   align-items: center;
+   font-size: 2.4rem;
+   text-decoration: none;
+   transition: all 0.2s ease-in-out;
+   width: fit-content;
+   gap: 0.7rem;
 }
 
 .go-to-case-link:hover,
 .go-to-case-link:active {
-    transform: scale(0.9);
+   transform: scale(0.9);
 }
 
 .go-to-case-icon {
-    height: 28px;
-    width: 28px;
-    stroke-width: 1.5px;
+   height: 28px;
+   width: 28px;
+   stroke-width: 1.5px;
 }
 
 .dark-font {
-    color: #212529;
+   color: #212529;
 }
 
 .light-font {
-    color: #ddd;
+   color: #ddd;
 }
